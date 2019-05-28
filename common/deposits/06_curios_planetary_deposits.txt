@@ -1,0 +1,162 @@
+d_crystal_growth_deposit = {
+	is_for_colonizeable = yes
+	category = deposit_cat_rare
+	
+	icon = d_crystal_growth_deposit
+	
+	potential = {
+		can_have_habitable_deposits = yes
+	}
+	
+	planet_modifier = {
+		district_mining_max = 2
+	}
+	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_researcher_add = 1
+		}
+	}
+	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_hive_empire = yes }
+		}
+		modifier = {
+			job_brain_drone_add = 1
+		}
+	}
+	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_machine_empire = yes }
+		}
+		modifier = {	
+			job_calculator_add = 1
+		}
+	}
+	
+	drop_weight = {
+		weight = 0
+	}
+}
+
+d_deep_ocean_station = {
+	is_for_colonizeable = yes
+	category = deposit_cat_rare
+	
+	icon = d_ruined_station
+	
+	planet_modifier = {
+		planet_jobs_physics_research_produces_mult = 0.05
+		planet_jobs_society_research_produces_mult = 0.05
+		planet_jobs_engineering_research_produces_mult = 0.1
+	}
+	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_researcher_add = 2
+		}
+	}
+	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_hive_empire = yes }
+		}
+		modifier = {
+			job_brain_drone_add = 2
+		}
+	}
+	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_machine_empire = yes }
+		}
+		modifier = {	
+			job_calculator_add = 2
+		}
+	}
+	
+	drop_weight = {
+		weight = 0
+	}
+}
+
+d_infestation = {
+	is_for_colonizeable = yes
+	category = deposit_cat_rare
+	
+	icon = d_infestation
+	
+	planet_modifier = {
+		planet_jobs_society_research_produces_mult = 0.2
+		pop_environment_tolerance = -0.10
+	}
+	
+	job_infestation_researcher_add = 1
+	job_infestation_researcher_per_pop = 0.05 # 1 per 20
+	
+	drop_weight = {
+		weight = @mid_rare
+		modifier = {
+			factor = 2
+			is_planet_class = pc_tropical
+		}		
+		modifier = {
+			factor = 0
+			solar_system = {
+				OR = {
+					has_star_flag = empire_home_system
+					has_star_flag = sol_system
+					has_star_flag = deneb_system
+				}
+			}
+		}		
+	}
+}
+
+d_great_canyon = {
+	is_for_colonizeable = yes
+	category = deposit_cat_rare
+	
+	icon = d_grand_canyon
+	
+	planet_modifier = {
+		district_mining_max = 2
+		pop_happiness = 0.05
+	}
+	
+	
+	
+	drop_weight = {
+		weight = @mid_rare
+		modifier = {
+			factor = 2
+			is_planet_class = pc_savannah
+			is_planet_class = pc_desert
+			is_planet_class = pc_arid
+		}		
+		modifier = {
+			factor = 0
+			solar_system = {
+				OR = {
+					has_star_flag = empire_home_system
+					has_star_flag = sol_system
+					has_star_flag = deneb_system
+				}
+			}
+		}		
+	}
+}

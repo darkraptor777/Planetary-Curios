@@ -1,0 +1,16 @@
+l_english:
+ ####################################
+ # Anomaly Events
+ ####################################
+ curio.anomaly.1.name:0 "Curious Crystals"
+ curio.anomaly.1.desc:0 "Upon further investigation the region around the crystals is exceptionally mineral rich. As for the crystals themselves their composition is something we had previously thought was not possible, the process behind their formation is still something of a mystery however the rate at which they form is surprisingly quick."
+ curio.anomaly.1.a:0 "We should study them."
+ curio.anomaly.2.name:0 "Deep Ocean Station"
+ curio.anomaly.2.desc:0 "Our subnautical team reports that the great structure is some sort of research station built in the furthest depths of [From.GetName]. Much of the stations equipment is in near pristine condition, as if it was newly built. However there is no trace of the stations architects nor inhabitants, the place seemingly abandoned before it was ever put to use."
+ curio.anomaly.2.a:0 "How curious."
+ 
+ ####################################
+ # Anomaly Categories
+ ####################################
+ CRYSTAL_GROWTH_DESC:0 "While conducting a survey of [From.GetName], our sensors have detected strange crystal formations located in a small region on the planets surface. Perhaps this warrents further investigation."
+ DEEP_STATION_DESC:0 "While conducting a survey of [From.GetName], our scanners have picked up what appears to be some sort of structure deep beneath the waves. We should send a subnautical crew to investigate immediately."
