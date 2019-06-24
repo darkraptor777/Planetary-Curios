@@ -160,3 +160,102 @@ d_great_canyon = {
 		}		
 	}
 }
+
+
+d_gilded_monument = {
+	is_for_colonizeable = yes
+	category = deposit_cat_rare
+	
+	icon = d_gilded_monument
+	
+	planet_modifier = {
+		trade_value_mult = 0.1
+	}
+	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_researcher_add = 1
+		}
+	}
+	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_hive_empire = yes }
+		}
+		modifier = {
+			job_brain_drone_add = 1
+		}
+	}
+	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_machine_empire = yes }
+		}
+		modifier = {	
+			job_calculator_add = 1
+		}
+	}
+	
+	
+	drop_weight = {
+		weight = @high_rare
+		modifier = {
+			factor = 2
+			is_planet_class = pc_arctic
+			is_planet_class = pc_tundra
+			is_planet_class = pc_alpine
+		}		
+		modifier = {
+			factor = 0
+			solar_system = {
+				OR = {
+					has_star_flag = empire_home_system
+					has_star_flag = sol_system
+					has_star_flag = deneb_system
+				}
+			}
+		}		
+	}
+}
+
+d_great_vortex = {
+	is_for_colonizeable = yes
+	category = deposit_cat_rare
+	
+	icon = d_great_vortex
+	
+	planet_modifier = {
+		pop_environment_tolerance = -0.05
+		district_generator_max = 6
+	}
+	
+	drop_weight = {
+		weight = @low_rare
+		modifier = {
+			factor = 2
+			is_planet_class = pc_arctic
+			is_planet_class = pc_tundra
+			is_planet_class = pc_savannah
+			is_planet_class = pc_desert
+			is_planet_class = pc_arid
+			is_planet_class = pc_continental
+			is_planet_class = pc_gaia
+		}		
+		modifier = {
+			factor = 0
+			solar_system = {
+				OR = {
+					has_star_flag = empire_home_system
+					has_star_flag = sol_system
+					has_star_flag = deneb_system
+				}
+			}
+		}		
+	}
+}

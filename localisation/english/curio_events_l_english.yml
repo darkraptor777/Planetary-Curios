@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  ####################################
  # Anomaly Events
  ####################################
@@ -14,3 +14,35 @@ l_english:
  ####################################
  CRYSTAL_GROWTH_DESC:0 "While conducting a survey of [From.GetName], our sensors have detected strange crystal formations located in a small region on the planets surface. Perhaps this warrents further investigation."
  DEEP_STATION_DESC:0 "While conducting a survey of [From.GetName], our scanners have picked up what appears to be some sort of structure deep beneath the waves. We should send a subnautical crew to investigate immediately."
+ 
+ ####################################
+ # Deposits
+ ####################################
+ d_crystal_growth_deposit:0 "Crystal Growths"
+ d_crystal_growth_deposit.desc:0 "Fast growing crystals with an unusual composition."
+ d_deep_ocean_station:0 "Deep Ocean Research Station"
+ d_deep_ocean_station.desc:0 "A pristine research facility constructed by unknown architects deep beneath the planets waves."
+ d_infestation:0 "Infestation"
+ d_infestation.desc:0 "A seemily docile parasite has infected much of the flora and fauna in this region."
+ d_great_canyon:0 "Grand Canyon"
+ d_great_canyon.desc:0 "A labyrinth of crevasses stretching across the horizon."
+ d_gilded_monument:0 "Gilded Monument"
+ d_gilded_monument.desc:0 "An ancient monument gilded in rare minerals."
+ d_great_vortex:0 "Great Vortex"
+ d_great_vortex.desc:0 "A permanent giant vortex fueled by abnormal atmospheric pressure."
+ 
+ ####################################
+ # Dig Sites
+ ####################################
+ mawluke_site:0 "Buried Fate"
+ mawluke_site_intro:0 "The planet is covered in half-buried cities"
+ curio.101.name:0 "temp"
+ curio.101.desc:0 "temp"
+ curio.102.name:0 "temp"
+ curio.102.desc:0 "temp"
+ curio.103.name:0 "temp"
+ curio.103.desc:0 "temp"
+ curio.104.name:0 "temp"
+ curio.104.desc:0 "temp"
+ curio.105.name:0 "The Egg"
+ curio.105.desc:0 "temp"

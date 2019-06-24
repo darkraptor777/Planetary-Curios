@@ -3,6 +3,161 @@
 
 namespace = curio
 
+####################################
+#### Relics
+####################################
+
+#Mawlurk Egg Activation
+country_event = {
+	id = curio.1
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		capital_scope = {
+			create_army = {
+				name = "Mawlurk Army"
+				owner = root
+				species = root
+				type = "mawlurk_army"
+			}
+			create_army = {
+				name = "Mawlurk Army"
+				owner = root
+				species = root
+				type = "mawlurk_army"
+			}
+			create_army = {
+				name = "Mawlurk Army"
+				owner = root
+				species = root
+				type = "mawlurk_army"
+			}
+			create_army = {
+				name = "Mawlurk Army"
+				owner = root
+				species = root
+				type = "mawlurk_army"
+			}
+			create_army = {
+				name = "Mawlurk Army"
+				owner = root
+				species = root
+				type = "mawlurk_army"
+			}
+			create_army = {
+				name = "Mawlurk Army"
+				owner = root
+				species = root
+				type = "mawlurk_army"
+			}
+		}
+	}
+}
+
+####################################
+#### Archaeological Sites
+####################################
+
+#Mawlurk site stage 1
+fleet_event = { 
+	id = curio.101
+	title = "curio.101.name"
+	desc = curio.101.desc
+	picture = GFX_evt_relic_world_street
+	show_sound = event_wind_ruins
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = curio.101.a
+	}
+}
+
+#Mawlurk site stage 2
+fleet_event = { 
+	id = curio.102
+	title = "curio.102.name"
+	desc = curio.102.desc
+	picture = GFX_evt_relic_world_building
+	show_sound = event_wind_ruins
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = curio.102.a
+	}
+}
+
+#Mawlurk site stage 3
+fleet_event = { 
+	id = curio.103
+	title = "curio.103.name"
+	desc = curio.103.desc
+	picture = GFX_evt_generator_powerup
+	show_sound = event_bad_omen
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = curio.103.a
+	}
+}
+
+#Mawlurk site stage 4
+fleet_event = { 
+	id = curio.104
+	title = "curio.104.name"
+	desc = curio.104.desc
+	picture = GFX_evt_clones
+	show_sound = event_bad_omen
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = curio.104.a
+	}
+}
+
+#Mawlurk site stage 5
+fleet_event = { 
+	id = curio.105
+	title = "curio.105.name"
+	desc = curio.105.desc
+	picture = GFX_evt_clones
+	show_sound = event_finding_loot
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = EXCELLENT
+		owner = {
+			add_relic = r_maw_egg
+		}
+	}
+}
+
+####################################
+#### Anomalies
+####################################
+
 ship_event = {
 	id = curio.anomaly.1
 	title = "curio.anomaly.1.name"

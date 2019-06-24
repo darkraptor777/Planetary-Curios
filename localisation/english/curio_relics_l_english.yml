@@ -1,0 +1,14 @@
+﻿l_english:
+ ##################
+ # RELICS
+ ##################
+ relic_maw_spawn:0 "Breed a group of Mawlurk armies."
+ r_maw_egg:0 "Mawlurk Egg"
+ r_maw_egg_desc:0 "A bio-engineered egg capable of hatching monstrous creatures. NOT FOR COOKING."
+ 
+ ##################
+ # ARMIES
+ ##################
+ mawlurk_army:0 "Mawlurk Army"
+ mawlurk_army_desc:0 "Montrous burrowing worm-like creatures. Notoriously difficult to command; they have a habit of burrowing into civilian areas."
+ 

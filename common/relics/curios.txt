@@ -1,0 +1,50 @@
+﻿@activation_cost = 150
+@triumph_duration = 3600
+
+r_maw_egg = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_relic_maw_egg"
+	sound = "sfx_relic_activation_javorian_pox_sample"
+
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			influence = @activation_cost
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+	}
+	
+	triggered_country_modifier = {
+		potential = {
+			always = yes
+		}
+		army_damage_mult = 0.15
+		army_collateral_damage_mult = 0.15
+	}
+
+	score = 200
+
+	active_effect = {
+		custom_tooltip = relic_maw_spawn
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown" 
+				days = @triumph_duration
+			}	
+			country_event = { id = curio.1 }	
+		}
+	}
+
+	# Possible check for activation
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_relic_no_cooldown"
+			NOT = { has_modifier = relic_activation_cooldown }
+		}
+	}
+}

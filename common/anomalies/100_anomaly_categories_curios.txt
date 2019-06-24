@@ -26,7 +26,7 @@ CRYSTAL_GROWTH_CAT = {
 
 DEEP_STATION_CAT = {
 	desc = "DEEP_STATION_DESC"
-	picture = "GFX_evt_ocean_planet"
+	picture = "GFX_evt_ship_in_orbit"
 	level = 4
 
 	spawn_chance = {
