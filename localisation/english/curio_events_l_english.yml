@@ -2,47 +2,54 @@
  ####################################
  # Anomaly Events
  ####################################
- curio.anomaly.1.name:0 "Curious Crystals"
- curio.anomaly.1.desc:0 "Upon further investigation the region around the crystals is exceptionally mineral rich. As for the crystals themselves their composition is something we had previously thought was not possible, the process behind their formation is still something of a mystery however the rate at which they form is surprisingly quick."
- curio.anomaly.1.a:0 "We should study them."
- curio.anomaly.2.name:0 "Deep Ocean Station"
- curio.anomaly.2.desc:0 "Our subnautical team reports that the great structure is some sort of research station built in the furthest depths of [From.GetName]. Much of the stations equipment is in near pristine condition, as if it was newly built. However there is no trace of the stations architects nor inhabitants, the place seemingly abandoned before it was ever put to use."
- curio.anomaly.2.a:0 "How curious."
+ curio.10001.name:0 "Curious Crystals"
+ curio.10001.desc:0 "Upon further investigation the region around the crystals is exceptionally mineral rich. As for the crystals themselves their composition is something we had previously thought was not possible, the process behind their formation is still something of a mystery however the rate at which they form is surprisingly quick."
+ curio.10001.a:0 "We should study them."
+ curio.10002.name:0 "Deep Ocean Station"
+ curio.10002.desc:0 "Our subnautical team reports that the great structure is some sort of research station built in the furthest depths of [From.GetName]. Much of the stations equipment is in near pristine condition, as if it was newly built. However there is no trace of the stations architects nor inhabitants, the place seemingly abandoned before it was ever put to use."
+ curio.10002.a:0 "How curious."
  
  ####################################
  # Anomaly Categories
  ####################################
+ CRYSTAL_GROWTH_CAT:0 "Curious Crystals"
  CRYSTAL_GROWTH_DESC:0 "While conducting a survey of [From.GetName], our sensors have detected strange crystal formations located in a small region on the planets surface. Perhaps this warrents further investigation."
- DEEP_STATION_DESC:0 "While conducting a survey of [From.GetName], our scanners have picked up what appears to be some sort of structure deep beneath the waves. We should send a subnautical crew to investigate immediately."
+ DEEP_STATION_CAT:0 "Submerged Station"
+ DEEP_STATION_DESC:0 "While conducting a survey of [From.GetName], our scanners have picked up what appears to be some sort of structure deep beneath the waves."
  
  ####################################
  # Deposits
  ####################################
  d_crystal_growth_deposit:0 "Crystal Growths"
- d_crystal_growth_deposit.desc:0 "Fast growing crystals with an unusual composition."
+ d_crystal_growth_deposit_desc:0 "Fast growing crystals with an unusual composition."
  d_deep_ocean_station:0 "Deep Ocean Research Station"
- d_deep_ocean_station.desc:0 "A pristine research facility constructed by unknown architects deep beneath the planets waves."
+ d_deep_ocean_station_desc:0 "A pristine research facility constructed by unknown architects deep beneath the planets waves."
  d_infestation:0 "Infestation"
- d_infestation.desc:0 "A seemily docile parasite has infected much of the flora and fauna in this region."
+ d_infestation_desc:0 "A seemily docile parasite has infected much of the flora and fauna in this region."
  d_great_canyon:0 "Grand Canyon"
- d_great_canyon.desc:0 "A labyrinth of crevasses stretching across the horizon."
+ d_great_canyon_desc:0 "A labyrinth of crevasses stretching across the horizon."
  d_gilded_monument:0 "Gilded Monument"
- d_gilded_monument.desc:0 "An ancient monument gilded in rare minerals."
+ d_gilded_monument_desc:0 "An ancient monument gilded in rare minerals."
  d_great_vortex:0 "Great Vortex"
- d_great_vortex.desc:0 "A permanent giant vortex fueled by abnormal atmospheric pressure."
+ d_great_vortex_desc:0 "A permanent giant vortex fueled by abnormal atmospheric pressure."
  
  ####################################
  # Dig Sites
  ####################################
- mawluke_site:0 "Buried Fate"
- mawluke_site_intro:0 "The planet is covered in half-buried cities"
- curio.101.name:0 "temp"
- curio.101.desc:0 "temp"
- curio.102.name:0 "temp"
- curio.102.desc:0 "temp"
- curio.103.name:0 "temp"
- curio.103.desc:0 "temp"
- curio.104.name:0 "temp"
- curio.104.desc:0 "temp"
+ mawlurk_site:0 "Buried Fate"
+ mawlurk_site_intro:0 "The surface of [From.Planet.GetName] is covered in ruined cities and settlements with no sign of their inhabitants. Large areas of some cities are half-buried, the ground seeming to have collapsed beneath them."
+ curio.101.name:0 "Buried Fate"
+ curio.101.desc:0 "Based on dozens of pieces of media we've recovered [From.Planet.GetName] was divided between a number of different factions, each controlling various regions of the planet. One faction in particular named §H"The United Front"§! seems to have been the dominant topic of most of the diplomatic communications between the other factions, with many signing treaties of mutual defence against them. As for which region the United Front resided in it is harder to discern; the borders between these factions, as important as they must have once seemed, have been long forgotten."
+ curio.101.a:0 "Keep Searching!"
+ curio.102.name:0 "The United Front"
+ curio.102.desc:0 "A breakthrough in finding the location of the United Front was finally reached when a map in remarkably good condition was discovered. Curiously, the region they once ruled over seems to have suffered the worst of the destruction wrought across the planet. Most structures here are almost completely buried beneath the surface, with a few of the more prominent buildings poking out above ground. Based on additional media recovered during the search tensions between the United Front and the other factions were high during the final years before their demise, the popular theory among our scientists is that somehow they brought about eachothers destruction."
+ curio.102.a:0 "Curious Indeed."
+ curio.103.name:0 "The United Front"
+ curio.103.desc:0 "The central administrative building of the United Front has been discovered. The structure itself is a grand and imposing one even in its decrepit state. It seems the building also served a role in the military and several documents refer to the developement of a weapon, codename §H"Project Mawlurk"§!, it's developement being so close to the demise of it's creators can hardly be a coincidence. Details are scarce about the exact nature of the weapon leaving many questions unanswered, but the bunker beneath the building seems like it may hold some answers. Now if only the blast doors would open."
+ curio.103.a:0 "Get those doors open!"
+ curio.104.name:0 "Project Mawlurk"
+ curio.104.desc:0 "The thick blast doors were not easy to open, the dig team eventually managed to partially restore power to the door and pry them open with heavy duty equipment. Within is a fortified military research facility, with documents ranging from threat analyses of foreign factions to methods of improving their own arsenal. More detailed reports on Project Mawlurk reveal that it was kept secure in its own section of the facility and that there had been numerous 'accidents' involving the weapon, with several scientists being injured or in some cases outright killed. The United Front kept the developement of this weapon a secret even from their own populace, planning to unveil it by putting it to use against one of their older and more vocal rival factions. It seems their weapon may have been more effective than they ever could have hoped..."
+ curio.104.a:0 "We must find it!"
  curio.105.name:0 "The Egg"
- curio.105.desc:0 "temp"
+ curio.105.desc:0 "Deeper inside the bunker the dig team discover an even more heavily fortified vault. The entrace is unhinged and partially melted from the inside. The interior is in substantially worse condition, holes several feet across sporadically cover the room and burrow deep into the ground. Amongst the rubble is a large pulsating orb with tendrils and a gaping maw. Security footage shows what [Root.GetLeaderName] describes as the orb birthing several large lithotroph worms, which made short work of the scientists sent to collect them as well as the vaults fortifications. From there our scientists extrapolate the creatures quickly got out of control, bringing ruin to much of the United Front's territory. The other factions, unaware and unprepared for these creatures soon followed suit."
+ curio.105.a:0 "We must use these creatures with great caution."

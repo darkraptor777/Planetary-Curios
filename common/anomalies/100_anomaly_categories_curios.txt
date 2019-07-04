@@ -20,7 +20,7 @@ CRYSTAL_GROWTH_CAT = {
 		}
 	}
 	
-	on_success = curio.anomaly.1
+	on_success = curio.10001
 }
 
 
@@ -36,5 +36,5 @@ DEEP_STATION_CAT = {
 		}
 	}
 	
-	on_success = curio.anomaly.2
+	on_success = curio.10002
 }

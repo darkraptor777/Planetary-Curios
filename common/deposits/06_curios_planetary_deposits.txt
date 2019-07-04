@@ -116,11 +116,16 @@ d_infestation = {
 		}		
 		modifier = {
 			factor = 0
+			OR = {
 			solar_system = {
-				OR = {
-					has_star_flag = empire_home_system
-					has_star_flag = sol_system
-					has_star_flag = deneb_system
+					OR = {
+						has_star_flag = empire_home_system
+						has_star_flag = sol_system
+						has_star_flag = deneb_system
+					}
+					NOT = {
+						is_planet_class = pc_tropical
+					}
 				}
 			}
 		}		
@@ -150,11 +155,22 @@ d_great_canyon = {
 		}		
 		modifier = {
 			factor = 0
-			solar_system = {
-				OR = {
-					has_star_flag = empire_home_system
-					has_star_flag = sol_system
-					has_star_flag = deneb_system
+			OR = {
+				solar_system = {
+					OR = {
+						has_star_flag = empire_home_system
+						has_star_flag = sol_system
+						has_star_flag = deneb_system
+					}
+				}
+				NOT = {
+					is_planet_class = pc_savannah
+				}
+				NOT = {
+					is_planet_class = pc_desert
+				}
+				NOT = {
+					is_planet_class = pc_arid
 				}
 			}
 		}		
@@ -204,7 +220,7 @@ d_gilded_monument = {
 	
 	
 	drop_weight = {
-		weight = @high_rare
+		weight = @low_rare
 		modifier = {
 			factor = 2
 			is_planet_class = pc_arctic

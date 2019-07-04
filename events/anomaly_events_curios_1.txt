@@ -159,9 +159,9 @@ fleet_event = {
 ####################################
 
 ship_event = {
-	id = curio.anomaly.1
-	title = "curio.anomaly.1.name"
-	desc = "curio.anomaly.1.desc"
+	id = curio.10001
+	title = "curio.10001.name"
+	desc = "curio.10001.desc"
 	picture = GFX_evt_ship_in_orbit
 	show_sound = event_ship_bridge
 	location = fromfrom
@@ -169,7 +169,7 @@ ship_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = curio.anomaly.1.a
+		name = curio.10001.a
 		fromfrom = {
 			add_deposit = d_crystal_growth_deposit
 		}
@@ -177,17 +177,17 @@ ship_event = {
 }
 
 ship_event = {
-	id = curio.anomaly.2
-	title = "curio.anomaly.2.name"
-	desc = "curio.anomaly.2.desc"
-	picture = GFX_evt_ocean_planet
+	id = curio.10002
+	title = "curio.10002.name"
+	desc = "curio.10002.desc"
+	picture = GFX_evt_ship_in_orbit
 	show_sound = event_ship_bridge
 	location = fromfrom
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = curio.anomaly.2.a
+		name = curio.10002.a
 		fromfrom = {
 			add_deposit = d_deep_ocean_station
 		}
