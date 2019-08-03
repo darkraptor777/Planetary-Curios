@@ -73,6 +73,14 @@ fleet_event = {
 	archaeology = yes
 
 	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
 
 	option = {
 		name = curio.101.a
@@ -91,9 +99,18 @@ fleet_event = {
 	archaeology = yes
 
 	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
 
 	option = {
 		name = curio.102.a
+		small_artifact_reward = yes
 	}
 }
 
@@ -110,8 +127,17 @@ fleet_event = {
 
 	is_triggered_only = yes
 
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+	
 	option = {
 		name = curio.103.a
+		small_artifact_reward = yes
 	}
 }
 
@@ -127,9 +153,18 @@ fleet_event = {
 	archaeology = yes
 
 	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
 
 	option = {
 		name = curio.104.a
+		small_artifact_reward = yes
 	}
 }
 
@@ -145,6 +180,14 @@ fleet_event = {
 	archaeology = yes
 
 	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
 
 	option = {
 		name = EXCELLENT
@@ -153,6 +196,96 @@ fleet_event = {
 		}
 	}
 }
+
+
+
+#Church of the Gilded Sun Stage 1
+fleet_event = { 
+	id = curio.111
+	title = "curio.111.name"
+	desc = curio.111.desc
+	picture = GFX_evt_theological_ruins
+	show_sound = event_wind_ruins
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = CURIOUS
+		small_artifact_reward = yes
+	}
+}
+
+#Church of the Gilded Sun Stage 2
+fleet_event = { 
+	id = curio.112
+	title = "curio.112.name"
+	desc = curio.112.desc
+	picture = GFX_evt_theological_ruins
+	show_sound = event_wind_ruins
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = CURIOUS
+		small_artifact_reward = yes
+	}
+}
+
+#Church of the Gilded Sun Stage 3
+fleet_event = { 
+	id = curio.113
+	title = "curio.113.name"
+	desc = curio.113.desc
+	picture = GFX_evt_excavation_team
+	show_sound = event_finding_loot
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = CURIOUS
+		large_artifact_reward = yes
+		owner = {
+    		add_resource = {
+				society_research = 3500
+				influence = 200
+			}
+    	}
+	}
+}
+
 
 ####################################
 #### Anomalies

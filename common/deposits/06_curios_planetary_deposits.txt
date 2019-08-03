@@ -1,3 +1,7 @@
+@high_rare = 0.5
+@mid_rare = 0.25
+@low_rare = 0.1
+
 d_crystal_growth_deposit = {
 	is_for_colonizeable = yes
 	category = deposit_cat_rare
@@ -117,15 +121,15 @@ d_infestation = {
 		modifier = {
 			factor = 0
 			OR = {
-			solar_system = {
+				solar_system = {
 					OR = {
 						has_star_flag = empire_home_system
 						has_star_flag = sol_system
 						has_star_flag = deneb_system
 					}
-					NOT = {
-						is_planet_class = pc_tropical
-					}
+				}
+				NOT = {
+					is_planet_class = pc_tropical
 				}
 			}
 		}		
@@ -273,5 +277,42 @@ d_great_vortex = {
 				}
 			}
 		}		
+	}
+}
+
+
+###################
+##### SPECIAL #####
+###################
+
+d_luminescent_ferns_deposit = {
+	is_for_colonizeable = yes
+	category = deposit_cat_rare
+	icon = d_luminescent_ferns
+	
+	potential = {
+		can_have_habitable_deposits = yes
+	}
+	
+	planet_modifier = {
+		building_fern_harvesters_max = 1
+	}
+	
+	drop_weight = {
+		weight = @mid_rare
+		modifier = {
+			factor = 2
+			is_planet_class = pc_gaia
+		}
+		modifier = {
+			factor = 0
+			solar_system = {
+				OR = {
+					has_star_flag = empire_home_system
+					has_star_flag = sol_system
+					has_star_flag = deneb_system
+				}
+			}
+		}
 	}
 }

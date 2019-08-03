@@ -33,6 +33,65 @@
  d_great_vortex:0 "Great Vortex"
  d_great_vortex_desc:0 "A permanent giant vortex fueled by abnormal atmospheric pressure."
  
+ d_luminescent_ferns_deposit:0 "Glowing Groves"
+ d_luminescent_ferns_deposit_desc:0 "ferns desc"
+ 
+ ####################################
+ # Jobs
+ ####################################
+ job_fern_harvester:0 "Fern Harvester"
+ job_fern_harvester_desc:0 "ferns desc"
+ mod_job_fern_harvester_add:0 "Fern Harvester Jobs"
+ job_fern_harvesting_drone:0 "Fern Harvesting Drone"
+ job_fern_harvesting_drone_desc:0 "ferns desc"
+ mod_job_fern_harvesting_drone_add:0 "Fern Havesting Drone Jobs"
+ job_fern_refiner:0 "Fern Refiner"
+ job_fern_refiner_desc:0 ""
+ mod_job_fern_refiner_add:0 "Fern Refiner Jobs"
+ job_fern_refiner_drone:0 "Fern Refiner Drone"
+ job_fern_refiner_drone_desc:0 ""
+ mod_job_fern_refiner_drone_add:0 "Fern Refiner Drone Jobs"
+ 
+ job_infestation_researcher:0 "Infestation Researcher"
+ job_infestation_researcher_desc:0 "Infestation Researcher Desc"
+ mod_job_infestation_researcher_add:0 "Infestation Researcher Jobs"
+ 
+ 
+ ####################################
+ # Buildings
+ ####################################
+ building_fern_harvesters:0 "Luminescent Fern Farm"
+ building_fern_harvesters_desc:0 "ferns desc"
+ mod_building_fern_harvesters_max:0 "Luminescent Fern Farms"
+ building_fern_refiners:0 "Luminescent Fern Refinery"
+ building_fern_refiners_desc:0 "ferns desc"
+ 
+ ####################################
+ # Basic Resources
+ ####################################
+ luminescent_ferns:0 "Luminescent Ferns"
+ luminescent_ferns_desc:0 "ferns desc"
+ 
+ ####################################
+ # Research
+ ####################################
+ tech_harvest_luminescent_ferns:0 "Luminescent Fern Harvesting"
+ tech_harvest_luminescent_ferns_desc:0 "ferns desc"
+ tech_refine_luminescent_ferns:0 "Luminescent Fern Refining"
+ tech_refine_luminescent_ferns_desc:0 "ferns desc"
+ 
+ ####################################
+ # Planetary Modifiers
+ ####################################
+ luminescent_ferns_deficit:0 "Luminescent Ferns Deficit"
+ luminescent_ferns_deficit_desc:0 "We don't have enough luminescent ferns for our production."
+ noxious_fissures:0 "Noxious Fissures"
+ noxious_fissures_desc:0 "Toxic gas seeps out of various cracks and fissures across this planets surface."
+ nebulous_fog:0 "Nebulous Fog"
+ nebulous_fog_desc:0 "An unusual thick fog creeps through this planets valleys and plains, with proper planning this could aid planetary defense initiatives."
+ giant_crystals:0 "Giant Crystals"
+ giant_crystals_desc:0 "The crystal and mineral formations on this planet are abnormally large making mining efforts much more productive."
+ 
  ####################################
  # Dig Sites
  ####################################
@@ -53,3 +112,12 @@
  curio.105.name:0 "The Egg"
  curio.105.desc:0 "Deeper inside the bunker the dig team discover an even more heavily fortified vault. The entrace is unhinged and partially melted from the inside. The interior is in substantially worse condition, holes several feet across sporadically cover the room and burrow deep into the ground. Amongst the rubble is a large pulsating orb with tendrils and a gaping maw. Security footage shows what [Root.GetLeaderName] describes as the orb birthing several large lithotroph worms, which made short work of the scientists sent to collect them as well as the vaults fortifications. From there our scientists extrapolate the creatures quickly got out of control, bringing ruin to much of the United Front's territory. The other factions, unaware and unprepared for these creatures soon followed suit."
  curio.105.a:0 "We must use these creatures with great caution."
+ 
+ gilded_sun_site:0 "Amongst Clouds"
+ gilded_sun_site_intro:0 "A citadel city sits atop one of the highest regions of [From.Planet.GetName]. The place is long abandoned, it's bustling streets and alleyways must have been a sight to behold when the city was populated. Now only the clouds stalk through it's paved network."
+ curio.111.name:0 "Church of the Gilded Sun"
+ curio.111.desc:0 "§H"Church of the Gilded Sun"§!"
+ curio.112.name:0 "Church of the Gilded Sun"
+ curio.112.desc:0 ""
+ curio.113.name:0 "The Voyage"
+ curio.113.desc:0 ""

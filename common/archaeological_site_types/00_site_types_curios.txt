@@ -55,3 +55,51 @@ mawlurk_site = {
 		}
 	}
 }
+
+#Church of the Gilded Sun
+gilded_sun_site = {
+	desc = gilded_sun_site_intro
+	picture = GFX_evt_theological_ruins
+	stages = 3
+	max_instances = 1
+	allow = {
+		is_ship_class = shipclass_science_ship
+		exists = leader
+	}
+	visible = {
+		default_site_visible_trigger = yes
+	}
+	on_visible = {
+		country_event = { id = story.5 days = 30 }
+	}	
+	
+	weight = {
+		base = 60
+		modifier = {
+			factor = 0
+			habitable_planet = no
+		}
+	}
+	
+	stage = {
+		difficulty = 2
+		icon = GFX_archaeology_runes_E1
+		event = curio.111
+	}
+	stage = {
+		difficulty = 3
+		icon = GFX_archaeology_runes_E2
+		event = curio.112
+	}
+	stage = {
+		difficulty = 5
+		icon = GFX_archaeology_runes_E3
+		event = curio.113
+	}
+
+	on_roll_failed = {
+		from = {
+			standard_archaeological_site_on_roll_failed = { RANDOM_EVENTS = all_random_events }
+		}
+	}
+}

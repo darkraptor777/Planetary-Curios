@@ -1,0 +1,63 @@
+
+##############################
+### Manufactured Resources ###
+##############################
+
+#alloys = {
+#	tradable = yes
+#	market_amount = 25
+#	market_price = 100
+#	max = 15000
+#	
+#	deficit_modifier = alloys_deficit
+#	
+#	ai_weight = {
+#		weight = 5
+#	}
+#
+#	ai_wants = {
+#		base = 500
+#	}
+#}
+
+###########################
+### Advanced Resources  ###
+###########################
+
+luminescent_ferns = {
+	tradable = no
+	max = 15000
+	
+	visibility_prerequisite = { always = yes }
+	prerequisites = { "tech_mine_luminescent_ferns" }
+	
+	deficit_modifier = luminescent_ferns_deficit #found in static modifiers
+	
+	ai_weight = {
+		weight = 100
+	}
+}
+
+###########################
+###    Rare Resources   ###
+###########################
+
+#nanites  = {
+#	tradable = no
+#	max = 15000
+#
+#	visibility_prerequisite = { always = yes }
+#	deficit_modifier = nanites_deficit #found in static modifiers
+#	
+#	ai_weight = {
+#		weight = 100
+#	}
+#}
+
+#minor_artifacts = {
+#	tradable = no
+#	
+#	ai_weight = {
+#		weight = 1
+#	}
+#}

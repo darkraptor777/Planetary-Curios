@@ -1,4 +1,269 @@
 ###################
+# Resource Jobs
+###################
+
+fern_harvester = {
+	category = worker
+	condition_string = WORKER_JOB_TRIGGER
+	building_icon = building_fern_farm
+	clothes_texture_index = 2
+	icon = fern_harvester
+	
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+	}
+
+	possible = {
+		worker_job_check_trigger = yes
+	}
+	
+	resources = {
+		category = planet_miners
+		produces = {
+			luminescent_ferns = 2
+		}
+	}	
+	
+	weight = {
+		weight = @specialist_job_weight
+		modifier = {
+			factor = 10
+			is_enslaved = yes
+			can_take_servant_job = no
+		}
+		modifier = {
+			factor = 2
+			OR = {	
+				is_non_sapient_robot = yes
+				is_shackled_robot = yes
+			}
+			can_take_servant_job = no
+			owner = { has_technology = tech_droid_workers }
+		}	
+		modifier = {
+			factor = 200
+			OR = {	
+				is_non_sapient_robot = yes
+				is_shackled_robot = yes
+			}
+			can_take_servant_job = no
+			owner = { NOT = { has_technology = tech_droid_workers } }
+		}
+		modifier = {
+			factor = 0.1
+			can_take_servant_job = yes
+		}
+		modifier = {
+			factor = 5
+			has_trait = trait_syncretic_proles
+		}
+		modifier = {
+			factor = 2
+			species = {
+				has_species_flag = racket_species_flag
+			}
+		}
+		modifier = {
+			factor = 3
+			has_trait = trait_very_strong
+		}
+		modifier = {
+			factor = 1.5
+			has_trait = trait_strong
+		}	
+		modifier = {
+			factor = 0.1
+			has_trait = trait_weak
+		}			
+		modifier = {
+			factor = 3
+			OR = {
+				has_trait = trait_robust
+				has_trait = trait_robot_efficient_processors
+			}
+		}		
+		modifier = {
+			factor = 3
+			has_trait = trait_nerve_stapled
+		}			
+	}
+}
+
+fern_harvesting_drone = {	
+	category = complex_drone
+	condition_string = DRONE_JOB_TRIGGER
+	building_icon = building_fern_farm
+	icon = fern_harvester
+	
+	possible_pre_triggers = {
+		has_owner = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+	}
+
+	possible = {
+		drone_job_check_trigger = yes
+	}
+
+	resources = {
+		category = planet_jobs
+		produces = {
+			luminescent_ferns = 2
+		}
+		upkeep = {
+			energy = 1
+		}		
+	}	
+	
+	weight = {
+		weight = @complex_drone_job_weight
+		modifier = {
+			factor = 1.1
+			exists = owner
+			years_passed < 1
+			owner = { has_valid_civic = civic_machine_assimilator }
+			has_trait = trait_cybernetic
+		}			
+	}
+}
+
+fern_refiner = {
+	category = specialist
+	condition_string = WORKER_JOB_TRIGGER
+	building_icon = building_fern_refiner
+	clothes_texture_index = 2
+	icon = fern_harvester
+	
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+	}
+
+	possible = {
+		worker_job_check_trigger = yes
+	}
+	
+	resources = {
+		category = planet_jobs
+		produces = {
+			energy = 3
+			food = 4
+		}
+		upkeep = {
+			luminescent_ferns = 1
+		}		
+	}
+	
+	weight = {
+		weight = @specialist_job_weight
+		modifier = {
+			factor = 10
+			is_enslaved = yes
+			can_take_servant_job = no
+		}
+		modifier = {
+			factor = 2
+			OR = {	
+				is_non_sapient_robot = yes
+				is_shackled_robot = yes
+			}
+			can_take_servant_job = no
+			owner = { has_technology = tech_droid_workers }
+		}	
+		modifier = {
+			factor = 200
+			OR = {	
+				is_non_sapient_robot = yes
+				is_shackled_robot = yes
+			}
+			can_take_servant_job = no
+			owner = { NOT = { has_technology = tech_droid_workers } }
+		}
+		modifier = {
+			factor = 0.1
+			can_take_servant_job = yes
+		}
+		modifier = {
+			factor = 5
+			has_trait = trait_syncretic_proles
+		}
+		modifier = {
+			factor = 2
+			species = {
+				has_species_flag = racket_species_flag
+			}
+		}
+		modifier = {
+			factor = 3
+			has_trait = trait_very_strong
+		}
+		modifier = {
+			factor = 1.5
+			has_trait = trait_strong
+		}	
+		modifier = {
+			factor = 0.1
+			has_trait = trait_weak
+		}			
+		modifier = {
+			factor = 3
+			OR = {
+				has_trait = trait_robust
+				has_trait = trait_robot_efficient_processors
+			}
+		}		
+		modifier = {
+			factor = 3
+			has_trait = trait_nerve_stapled
+		}			
+	}
+}
+
+fern_refiner_drone = {	
+	category = complex_drone
+	condition_string = DRONE_JOB_TRIGGER
+	building_icon = building_fern_refiner
+	icon = fern_harvester
+	
+	possible_pre_triggers = {
+		has_owner = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+	}
+
+	possible = {
+		drone_job_check_trigger = yes
+	}
+
+	resources = {
+		category = planet_jobs
+		produces = {
+			energy = 3
+			food = 4
+		}
+		upkeep = {
+			luminescent_ferns = 1
+		}		
+	}	
+	
+	weight = {
+		weight = @complex_drone_job_weight
+		modifier = {
+			factor = 1.1
+			exists = owner
+			years_passed < 1
+			owner = { has_valid_civic = civic_machine_assimilator }
+			has_trait = trait_cybernetic
+		}			
+	}
+}
+
+###################
 # Event Jobs
 ###################
 

@@ -1,0 +1,106 @@
+#########################
+## Limited by deposits ##
+#########################
+
+building_fern_harvesters = {
+	base_buildtime = 360
+	icon = building_fern_farm
+
+	is_capped_by_modifier = yes
+
+	category = resource
+	
+	potential = {
+		NOT = { has_modifier = resort_colony }
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_fern_harvester_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		modifier = {
+			job_fern_harvesting_drone_add = 1
+		}
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 200
+		}
+		upkeep = {
+			energy = 1
+		}
+	}	
+	
+	prerequisites = {
+		"tech_harvest_luminescent_ferns"
+	}
+	
+	ai_weight = {
+		weight = 1000000
+	}#Always build the pop to work it can come later.
+}
+
+building_fern_refiners = {
+	base_buildtime = 360
+	icon = building_fern_refiner
+
+	is_capped_by_modifier = no
+
+	category = resource
+
+	potential = {
+		NOT = { has_modifier = resort_colony }
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_fern_refiner_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		modifier = {
+			job_fern_refiner_drone_add = 1
+		}
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 200
+		}
+		upkeep = {
+			energy = 1
+		}
+	}	
+	
+	prerequisites = {
+		"tech_refine_luminescent_ferns"
+	}
+	
+	ai_weight = {
+		weight = 1000
+	}#Always build the pop to work it can come later.
+}
+
