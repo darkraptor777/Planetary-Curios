@@ -1,0 +1,37 @@
+objectTypes = {
+
+	##################################################################
+	######														######
+	######						Stars							######
+	######														######
+	##################################################################
+	
+	pdxmesh = {
+		name = "gilded_star_mesh"
+		file = "gfx/models/planets/gilded_star.mesh"
+		animation = { id = "idle"	type = "neutron_star_idle_animation" }
+		scale = 1
+		cull_distance = 99999999.0f
+	}	
+	
+	
+	pdxmesh = {
+		name = "gilded_outbursts_mesh"
+		file = "gfx/models/planets/gilded_outbursts.mesh"
+		scale = 1
+		cull_distance = 99999999.0f
+		meshsettings = {
+			shader = PdxMeshAlphaAdditiveAnimateUVNoDissolve
+		}
+	}
+
+	pdxmesh = {
+		name = "gilded_rings_mesh"
+		file = "gfx/models/planets/gilded_rings.mesh"
+		scale = 1
+		cull_distance = 99999999.0f
+		meshsettings = {
+			shader = PdxMeshAlphaAdditiveAnimateUVNoDissolve
+		}
+	}
+}

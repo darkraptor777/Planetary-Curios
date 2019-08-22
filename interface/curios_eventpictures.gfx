@@ -1,0 +1,8 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evt_theological_ruins"
+		texturefile = "gfx/event_pictures/theological_ruins.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes		
+	}
+}

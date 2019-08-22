@@ -1,0 +1,19 @@
+objectTypes = {
+
+
+	pdxparticle = {
+		name = "gilded_star_outburst_effect"
+		type = "gilded_star_outburst_effect"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "gilded_star_particle"
+		type = "gilded_star_file"
+		
+		scale = 1.0
+	}
+
+	
+}

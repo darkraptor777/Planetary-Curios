@@ -1,0 +1,128 @@
+@distance = 50
+@base_moon_distance = 10
+
+### Church of the Gilded Sun System
+Gilded_system = {
+	name = "Gillion"
+	class = "sc_gilded_star"
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 125
+	}
+	
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 250
+	}
+	
+	planet = {
+		class = star
+		orbit_distance = 0
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+			add_deposit = d_energy_8
+			add_deposit = d_physics_6
+			add_deposit = d_trade_value_6
+		}
+	}
+	
+	planet = {
+		class = "pc_molten"
+		orbit_distance = 35
+		orbit_angle = 40
+		size = 15
+		has_ring = no
+	}
+	
+	planet = {
+		class = "pc_asteroid"
+		orbit_distance = 30
+		orbit_angle = -210
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = -95
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		class = "pc_barren"
+		orbit_distance = 30
+		orbit_angle = 45
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		class = "pc_gaia"
+		orbit_distance = 50
+		orbit_angle = 145
+		size = 30
+		has_ring = yes
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+			create_archaeological_site = zroni_digsite_6
+			add_deposit = d_zro_deposit_5
+		}
+		moon = {
+			class = "pc_toxic"
+			size = 8
+			orbit_distance = 12
+			orbit_angle = 320
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		class = "pc_gas_giant"
+		orbit_distance = 20
+		orbit_angle = 145
+		size = 20
+		has_ring = yes
+		
+		moon = {
+			class = "pc_toxic"
+			size = 10
+			orbit_distance = 12
+			orbit_angle = 320
+			has_ring = no
+		}
+		
+		moon = {
+			class = "pc_toxic"
+			size = 8
+			orbit_distance = 4
+			orbit_angle = 150
+			has_ring = no
+		}
+		moon = {
+			class = "pc_toxic"
+			size = 8
+			orbit_distance = 4
+			orbit_angle = 150
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		class = "pc_gas_giant"
+		orbit_distance = 20
+		orbit_angle = 145
+		size = 25
+		has_ring = no
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+	
+}
+

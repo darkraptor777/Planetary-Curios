@@ -73,6 +73,12 @@
  luminescent_ferns_desc:0 "ferns desc"
  
  ####################################
+ # Celestial Bodies
+ ####################################
+ pc_gilded_star:0 "Gilded Star"
+ pc_gilded_star_desc:0 "A star with an artificial green spectra. It's surface seems to be heavily composed of copper with a hydrogen core, it is likely stars like this have relatively short lifespans due to their unstable anatomy. It is theorised that the incredible speed at which the star spins helps stabalise the star."
+ 
+ ####################################
  # Research
  ####################################
  tech_harvest_luminescent_ferns:0 "Luminescent Fern Harvesting"
@@ -115,9 +121,9 @@
  
  gilded_sun_site:0 "Amongst Clouds"
  gilded_sun_site_intro:0 "A citadel city sits atop one of the highest regions of [From.Planet.GetName]. The place is long abandoned, it's bustling streets and alleyways must have been a sight to behold when the city was populated. Now only the clouds stalk through it's paved network."
- curio.111.name:0 "Church of the Gilded Sun"
- curio.111.desc:0 "§H"Church of the Gilded Sun"§!"
+ curio.111.name:0 "A Higher Calling"
+ curio.111.desc:0 "Our expeditions have revealed that the civilisation here was extremely spiritualistic. Religion seems to have dominated day-to-day life in the city, dictating everything from what job a citizen would have to how to properly arrange dining cutlery. The main theological institution, §H"The Church of the Gilded Sun"§!, worshiped a deification of a star. Curiously however they did not worship [Root.Solar_System.GetName], which numerous texts refer to as a false god."
  curio.112.name:0 "Church of the Gilded Sun"
- curio.112.desc:0 ""
+ curio.112.desc:0 "temp"
  curio.113.name:0 "The Voyage"
- curio.113.desc:0 ""
+ curio.113.desc:0 "temp"
