@@ -34,26 +34,26 @@
  d_great_vortex_desc:0 "A permanent giant vortex fueled by abnormal atmospheric pressure."
  
  d_luminescent_ferns_deposit:0 "Glowing Groves"
- d_luminescent_ferns_deposit_desc:0 "ferns desc"
+ d_luminescent_ferns_deposit_desc:0 "A secluded region filled with highly bioluminescent plants."
  
  ####################################
  # Jobs
  ####################################
  job_fern_harvester:0 "Fern Harvester"
- job_fern_harvester_desc:0 "ferns desc"
+ job_fern_harvester_desc:0 "The harvesting of the unusual ferns requires great care and training."
  mod_job_fern_harvester_add:0 "Fern Harvester Jobs"
  job_fern_harvesting_drone:0 "Fern Harvesting Drone"
- job_fern_harvesting_drone_desc:0 "ferns desc"
+ job_fern_harvesting_drone_desc:0 "Only the most careful drons are permitted to harvest the unusual ferns."
  mod_job_fern_harvesting_drone_add:0 "Fern Havesting Drone Jobs"
  job_fern_refiner:0 "Fern Refiner"
- job_fern_refiner_desc:0 ""
+ job_fern_refiner_desc:0 "Breaking down ferns into more common substances is not a simple or easy job."
  mod_job_fern_refiner_add:0 "Fern Refiner Jobs"
  job_fern_refiner_drone:0 "Fern Refiner Drone"
- job_fern_refiner_drone_desc:0 ""
+ job_fern_refiner_drone_desc:0 "Breaks down ferns into more useful substances, a concept most drones are familiar with."
  mod_job_fern_refiner_drone_add:0 "Fern Refiner Drone Jobs"
  
  job_infestation_researcher:0 "Infestation Researcher"
- job_infestation_researcher_desc:0 "Infestation Researcher Desc"
+ job_infestation_researcher_desc:0 "A certain aptitude is required for studying the infestation. Those with a more squeamish disposition don't tend to last long on the job."
  mod_job_infestation_researcher_add:0 "Infestation Researcher Jobs"
  
  
@@ -61,30 +61,32 @@
  # Buildings
  ####################################
  building_fern_harvesters:0 "Luminescent Fern Farm"
- building_fern_harvesters_desc:0 "ferns desc"
+ building_fern_harvesters_desc:0 "These agri-domes are specially designed to help limit the number of fatalities caused by the ferns spores."
  mod_building_fern_harvesters_max:0 "Luminescent Fern Farms"
  building_fern_refiners:0 "Luminescent Fern Refinery"
- building_fern_refiners_desc:0 "ferns desc"
+ building_fern_refiners_desc:0 "Photovoltaic panels generate low amounts of energy from the luminescent ferns before they are detoxed and converted into a more edible form."
  
  ####################################
  # Basic Resources
  ####################################
  luminescent_ferns:0 "Luminescent Ferns"
- luminescent_ferns_desc:0 "ferns desc"
+ luminescent_ferns_desc:0 "These highly bioluminescent plants are an enchanting spectacle in low light, however this beauty beguiles and their highly toxic spores can be lethal. Fresh corpses make for great fertilizer after all."
  
  ####################################
  # Celestial Bodies
  ####################################
  pc_gilded_star:0 "Gilded Star"
- pc_gilded_star_desc:0 "A star with an artificial green spectra. It's surface seems to be heavily composed of copper with a hydrogen core, it is likely stars like this have relatively short lifespans due to their unstable anatomy. It is theorised that the incredible speed at which the star spins helps stabalise the star."
+ pc_gilded_star_desc:0 "A star with an artificial green spectra. It's surface seems to be heavily composed of copper with a hydrogen core, it is likely stars like this have relatively short lifespans due to their unstable anatomy. Our scientists theorise that the incredible speed at which the star spins helps keep it from collapsing."
  
  ####################################
  # Research
  ####################################
  tech_harvest_luminescent_ferns:0 "Luminescent Fern Harvesting"
- tech_harvest_luminescent_ferns_desc:0 "ferns desc"
+ tech_harvest_luminescent_ferns_desc:0 "Extraordinarily bioluminescent predatory plants, their bright glow and lethal spores could have both economic and military applications."
  tech_refine_luminescent_ferns:0 "Luminescent Fern Refining"
- tech_refine_luminescent_ferns_desc:0 "ferns desc"
+ tech_refine_luminescent_ferns_desc:0 "Fern refinement is a long and complex process requiring specialist equipment and safety training."
+ tech_gilded_arks:0 "Gilded Arks"
+ tech_gilded_arks_desc:0 "The arks made by the Church of the Gilded Sun had some innovative methods of citizen storage."
  
  ####################################
  # Planetary Modifiers
@@ -122,8 +124,17 @@
  gilded_sun_site:0 "Amongst Clouds"
  gilded_sun_site_intro:0 "A citadel city sits atop one of the highest regions of [From.Planet.GetName]. The place is long abandoned, it's bustling streets and alleyways must have been a sight to behold when the city was populated. Now only the clouds stalk through it's paved network."
  curio.111.name:0 "A Higher Calling"
- curio.111.desc:0 "Our expeditions have revealed that the civilisation here was extremely spiritualistic. Religion seems to have dominated day-to-day life in the city, dictating everything from what job a citizen would have to how to properly arrange dining cutlery. The main theological institution, §H"The Church of the Gilded Sun"§!, worshiped a deification of a star. Curiously however they did not worship [Root.Solar_System.GetName], which numerous texts refer to as a false god."
+ curio.111.desc:0 "Our expeditions have revealed that the civilisation here was extremely spiritualistic, to an almost fanatical degree. With religion dominating day-to-day life in the city, dictating everything from what job a citizen would have to how to properly arrange dining cutlery. Many documents, both of religious and political nature, refer to §H"The Church of the Gilded Sun"§!."
  curio.112.name:0 "Church of the Gilded Sun"
- curio.112.desc:0 "temp"
+ curio.112.desc:0 "§H"The Church of the Gilded Sun"§! worshiped a deification of a star. Curiously however they did not worship [Root.Solar_System.GetName], which numerous texts refer to as a false god. Rather they worship §G"The Great Green Gilded Sun"§!. Details are sparse and many of our scientists are baffled as to what kind of stellar body they could be referring to, assuming it even exists at all."
  curio.113.name:0 "The Voyage"
- curio.113.desc:0 "temp"
+ curio.113.desc:0 "The lastest findings by the expedition have shed light on what happened to the cities populace. The church appears to have been in preparations for an exodus, constructing an enormous ship so that they might travel to the §HGilded Sun§!. All activities in the city were shifted to assist with this plan, it was hailed as a moment everyone had been waiting for."
+ curio.114.name:0 "The Voyage"
+ curio.114.desc:0 "At long last a space chart was discovered by the expedition. It is incredibly primitive and plots a route through several star systems, ending at the §HGilded Sun§!. What took some time to figure out however was that the route did not start at [Root.Solar_System.GetName]. Indeed it appears the populace had been journeying for generations, stopping every so often whenever thay ran out of resources."
+
+ gilded_sun_site2:0 "Journeys End"
+ gilded_sun_site2_intro:0 "The final destination for §H"The Church of the Gilded Sun"§! has at last been found. However [From.Planet.GetName] is long abandoned and the church long dead. It seems whatever disaster may have befallen them they did not live to tell the tale."
+ curio.120.name:0 "A Setting Sun"
+ curio.120.desc:0 "With their ultimate goal fufilled the church organised many celebrations and festivals for the citizens. Praising their hardwork, effort and ability to endure the centuries long journey here. With their purpose fufilled the church saw fit to relinquish most of their power and put together a civillian lead goverment. Hopes were high as the populace looked onwards to the start of a new era."
+ curio.121.name:0 "Without Purpose"
+ curio.121.desc:0 "Based of what few artifacts exist that can be dated after this point it seems the new government did not last long. Many citizens struggled to adapt to the new way of life, with generations having dedicated their entire existence to travelling to this star the lack of such a clear purpose filled much of the population with an existential dread. The goverment tried it's best to help stabilise things though intervention initiatives and propaganda, but several high profile mass suicides eroded the publics confidence in the goverment as well as their sanity.\nMany, many mass deaths soon followed.\n\nIt is believed that some survived these diffuclt times however they seem to have collectively decided to not procreate any further. Having seen their friends, family, neighbours and coworkers all take their own lives a decision was reached to not curse their offspring with this purposelessness."

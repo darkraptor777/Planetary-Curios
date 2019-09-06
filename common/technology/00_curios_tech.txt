@@ -2,9 +2,23 @@
 ######### STRATEGIC RESOURCES #########
 #######################################
 
+
+
 #################
 # Non-clustered #
 #################
+
+tech_gilded_arks = {
+	cost = @tier1cost2
+	area = society
+	tier = 2
+	category = { new_worlds }
+	weight = 0
+	
+	modifier = {
+		colony_start_num_pops_add = 2
+	}
+}
 
 tech_harvest_luminescent_ferns = {
 	cost = @tier1cost2

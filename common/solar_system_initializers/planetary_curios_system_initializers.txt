@@ -10,10 +10,6 @@ Gilded_system = {
 		radius = 125
 	}
 	
-	asteroid_belt = {
-		type = rocky_asteroid_belt
-		radius = 250
-	}
 	
 	planet = {
 		class = star
@@ -33,22 +29,34 @@ Gilded_system = {
 		orbit_angle = 40
 		size = 15
 		has_ring = no
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+		}
 	}
 	
 	planet = {
 		class = "pc_asteroid"
-		orbit_distance = 30
+		orbit_distance = 45
 		orbit_angle = -210
 		size = 5
 		has_ring = no
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+		}
 	}
 	
 	planet = {
 		class = "pc_asteroid"
-		orbit_distance = 0
+		orbit_distance = 45
 		orbit_angle = -95
 		size = 5
 		has_ring = no
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+		}
 	}
 	
 	planet = {
@@ -57,6 +65,10 @@ Gilded_system = {
 		orbit_angle = 45
 		size = 20
 		has_ring = no
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+		}
 	}
 	
 	planet = {
@@ -69,8 +81,7 @@ Gilded_system = {
 		init_effect = {
 			prevent_anomaly = yes
 			clear_deposits = yes
-			create_archaeological_site = zroni_digsite_6
-			add_deposit = d_zro_deposit_5
+			create_archaeological_site = gilded_sun_site2
 		}
 		moon = {
 			class = "pc_toxic"
@@ -78,6 +89,10 @@ Gilded_system = {
 			orbit_distance = 12
 			orbit_angle = 320
 			has_ring = no
+			init_effect = {
+				prevent_anomaly = yes
+				clear_deposits = yes
+			}
 		}
 	}
 	
@@ -94,6 +109,11 @@ Gilded_system = {
 			orbit_distance = 12
 			orbit_angle = 320
 			has_ring = no
+			
+			init_effect = {
+				prevent_anomaly = yes
+				clear_deposits = yes
+			}
 		}
 		
 		moon = {
@@ -102,6 +122,10 @@ Gilded_system = {
 			orbit_distance = 4
 			orbit_angle = 150
 			has_ring = no
+			init_effect = {
+				prevent_anomaly = yes
+				clear_deposits = yes
+			}
 		}
 		moon = {
 			class = "pc_toxic"
@@ -109,6 +133,10 @@ Gilded_system = {
 			orbit_distance = 4
 			orbit_angle = 150
 			has_ring = no
+			init_effect = {
+				prevent_anomaly = yes
+				clear_deposits = yes
+			}
 		}
 	}
 	
@@ -121,6 +149,7 @@ Gilded_system = {
 
 		init_effect = {
 			prevent_anomaly = yes
+			clear_deposits = yes
 		}
 	}
 	
