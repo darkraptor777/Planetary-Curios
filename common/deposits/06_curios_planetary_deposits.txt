@@ -109,8 +109,8 @@ d_infestation = {
 		pop_environment_tolerance = -0.10
 	}
 	
-	job_infestation_researcher_add = 1
-	job_infestation_researcher_per_pop = 0.05 # 1 per 20
+	#job_infestation_researcher_add = 1
+	#job_infestation_researcher_per_pop = 0.05 # 1 per 20
 	
 	drop_weight = {
 		weight = @mid_rare
@@ -300,6 +300,38 @@ d_luminescent_ferns_deposit = {
 	
 	drop_weight = {
 		weight = @mid_rare
+		modifier = {
+			factor = 2
+			is_planet_class = pc_gaia
+		}
+		modifier = {
+			factor = 0
+			solar_system = {
+				OR = {
+					has_star_flag = empire_home_system
+					has_star_flag = sol_system
+					has_star_flag = deneb_system
+				}
+			}
+		}
+	}
+}
+
+d_luminescent_ferns_tree_deposit = {
+	is_for_colonizeable = yes
+	category = deposit_cat_rare
+	icon = d_luminescent_ferns_tree
+	
+	potential = {
+		can_have_habitable_deposits = yes
+	}
+	
+	planet_modifier = {
+		building_fern_harvesters_max = 2
+	}
+	
+	drop_weight = {
+		weight = @low_rare
 		modifier = {
 			factor = 2
 			is_planet_class = pc_gaia

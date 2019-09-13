@@ -366,7 +366,7 @@ fleet_event = {
 
 	option = {
 		name = CURIOUS
-		small_artifact_reward = yes
+		medium_artifact_reward = yes
 	}
 }
 
@@ -396,7 +396,7 @@ fleet_event = {
 		medium_artifact_reward = yes
 		owner = {
 			add_resource = {
-				society_research = 3000
+				society_research = 1000
 			}
 			give_technology = { tech = tech_gilded_arks }
 		}

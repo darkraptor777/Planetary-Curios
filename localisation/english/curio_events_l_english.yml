@@ -18,6 +18,16 @@
  DEEP_STATION_DESC:0 "While conducting a survey of [From.GetName], our scanners have picked up what appears to be some sort of structure deep beneath the waves."
  
  ####################################
+ # Anomaly Categories
+ ####################################
+ edict_diplomacy_ferns:0 "Luminous Displays"
+ edict_diplomacy_ferns_desc:0 "The calming effect often observed when viewing the ferns can be utilised in diplomatic meetings, helping give our empire a more relaxed appearance."
+ edict_happy_ferns:0 "Luminous Festivals"
+ edict_happy_ferns_desc:0 "We can use the glowing ferns in awe-inspiring parades and festivals to help placate the populace."
+ edict_flare_ferns:0 "Luminous Flares"
+ edict_flare_ferns_desc:0 "Chemical compounds present in the ferns make excellent emergency flares, allowing our ships to more easily disengage."
+ 
+ ####################################
  # Deposits
  ####################################
  d_crystal_growth_deposit:0 "Crystal Growths"
@@ -35,6 +45,8 @@
  
  d_luminescent_ferns_deposit:0 "Glowing Groves"
  d_luminescent_ferns_deposit_desc:0 "A secluded region filled with highly bioluminescent plants."
+ d_luminescent_ferns_tree_deposit:0 "Luminous Forest"
+ d_luminescent_ferns_tree_deposit_desc:0 "A forest primarily consisting of gigantic trees with highly bioluminescent foliage."
  
  ####################################
  # Jobs
@@ -99,6 +111,8 @@
  nebulous_fog_desc:0 "An unusual thick fog creeps through this planets valleys and plains, with proper planning this could aid planetary defense initiatives."
  giant_crystals:0 "Giant Crystals"
  giant_crystals_desc:0 "The crystal and mineral formations on this planet are abnormally large making mining efforts much more productive."
+ clockwork_enigma:0 "Clockwork Enigma"
+ clockwork_enigma_desc:0 "The vast majority of flora and fauna on the planet are meticulously crafted clockwork automatons."
  
  ####################################
  # Dig Sites
@@ -137,4 +151,4 @@
  curio.120.name:0 "A Setting Sun"
  curio.120.desc:0 "With their ultimate goal fufilled the church organised many celebrations and festivals for the citizens. Praising their hardwork, effort and ability to endure the centuries long journey here. With their purpose fufilled the church saw fit to relinquish most of their power and put together a civillian lead goverment. Hopes were high as the populace looked onwards to the start of a new era."
  curio.121.name:0 "Without Purpose"
- curio.121.desc:0 "Based of what few artifacts exist that can be dated after this point it seems the new government did not last long. Many citizens struggled to adapt to the new way of life, with generations having dedicated their entire existence to travelling to this star the lack of such a clear purpose filled much of the population with an existential dread. The goverment tried it's best to help stabilise things though intervention initiatives and propaganda, but several high profile mass suicides eroded the publics confidence in the goverment as well as their sanity.\nMany, many mass deaths soon followed.\n\nIt is believed that some survived these diffuclt times however they seem to have collectively decided to not procreate any further. Having seen their friends, family, neighbours and coworkers all take their own lives a decision was reached to not curse their offspring with this purposelessness."
+ curio.121.desc:0 "Based of what few artifacts exist that can be dated after this point it seems the new government did not last long. Many citizens struggled to adapt to the new way of life, with generations having dedicated their entire existence to travelling to this star the lack of such a clear purpose filled much of the population with an existential dread. The goverment tried it's best to help stabilise things though intervention initiatives and propaganda, but several high profile mass suicides eroded the publics confidence in the goverment as well as their sanity.\nMany, many mass deaths soon followed.\n\nIt is believed that some survived these difficult times however they seem to have collectively decided to not procreate any further. Having seen their friends, family, neighbours and coworkers all take their own lives a decision was reached to not curse their offspring with this purposelessness."
