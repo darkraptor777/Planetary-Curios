@@ -100,7 +100,7 @@ building_fern_refiners = {
 	}
 	
 	ai_weight = {
-		weight = 1000
-	}#Always build the pop to work it can come later.
+		weight = 50
+	}
 }
 

@@ -1,0 +1,49 @@
+[img]https://i.imgur.com/zZsBis2.png[/img]
+
+[h1]Planetary Curios[/h1]
+For version 2.3+ of the game. 
+Compatible with all DLC. DLCs not required.
+Compatible with most mods (may conflict with other mods that add strategic resources).
+
+[img]https://i.imgur.com/RF9zfDA.png[/img]
+[h1]What does this mod do?[/h1]
+[list]
+[*]2 Brand new dig site chains (one with a single dig site and one with two dig sites)!
+[*]A new relic!
+[*]A new system with a unique stellar body! 
+[*]A new strategic resource!
+[*]New planetary modifiers with unique icons!
+[*]New planetary deposits with unique graphics!
+[*]New anomalys!
+[*]New techs, edicts, and buildings!
+[/list]
+
+[img]https://i.imgur.com/yZEGagf.png[/img]
+[h1]Archaeological Dig Sites[/h1]
+[b]How they work:[/b]
+This mod adds new dig sites like those included in the Ancient Relics dlc (NOTE: the dlc is [b]NOT REQUIRED[/b] to be able to use these new dig sites). Rewards vary from relics, to techs and unique solar systems.
+
+[img]https://i.imgur.com/cwRRaul.png[/img]
+[h1]Luminescent Ferns[/h1]
+[b]How they work:[/b]
+This mod adds a new strategic resource, luminescent ferns, to the game. Like other strategic resources it can be used for edicts, buldings and more! It can be harvested from unique planetary deposits and like other resources requires a tech to do so.
+
+
+[h1]Please rate and let me know what you think. Thank you and enjoy![/h1]
+
+
+[h1]Vanilla Files that are overwritten[/h1]
+This might be of help if any mod conflicts arise:
+[b]Does not overwrite vanilla files except:[/b]
+[list]
+[*]main.GUI
+[*]resources.GFX
+[*]sectors_other_resource_groups.txt
+[*]topbar_other_resource_groups.txt
+[/list]
+
+[h1]Localisations[/h1]
+Mod currently has the following localisations:
+[list]
+[*] English
+[/list]
