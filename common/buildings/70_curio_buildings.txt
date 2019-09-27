@@ -62,7 +62,25 @@ building_fern_refiners = {
 	category = resource
 
 	potential = {
-		NOT = { has_modifier = resort_colony }
+		OWNER = {
+			OR = {
+				has_monthly_income = {
+					resource = luminescent_ferns
+					value > 0
+				}
+				AND = {
+					is_ai = no
+					has_resource = { 
+						type = luminescent_ferns 
+						amount > 0 
+					}
+				}
+			}
+		}
+		NOR = {
+			has_modifier = resort_colony
+			has_modifier = slave_colony
+		}
 	}
 
 	triggered_planet_modifier = {

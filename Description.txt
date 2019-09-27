@@ -3,7 +3,7 @@
 [h1]Planetary Curios[/h1]
 For version 2.3+ of the game. 
 Compatible with all DLC. DLCs not required.
-Compatible with most mods (may conflict with other mods that add strategic resources).
+Compatible with most mods.
 
 [img]https://i.imgur.com/RF9zfDA.png[/img]
 [h1]What does this mod do?[/h1]
@@ -32,15 +32,9 @@ This mod adds a new strategic resource, luminescent ferns, to the game. Like oth
 [h1]Please rate and let me know what you think. Thank you and enjoy![/h1]
 
 
-[h1]Vanilla Files that are overwritten[/h1]
-This might be of help if any mod conflicts arise:
-[b]Does not overwrite vanilla files except:[/b]
-[list]
-[*]main.GUI
-[*]resources.GFX
-[*]sectors_other_resource_groups.txt
-[*]topbar_other_resource_groups.txt
-[/list]
+[h1]Compatibility[/h1]
+This mod is now supported by (and requires) the Universal Resources Patch.
+
 
 [h1]Localisations[/h1]
 Mod currently has the following localisations:

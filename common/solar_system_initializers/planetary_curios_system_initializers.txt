@@ -80,7 +80,6 @@ Gilded_system = {
 		
 		init_effect = {
 			prevent_anomaly = yes
-			clear_deposits = yes
 			create_archaeological_site = gilded_sun_site2
 		}
 		moon = {
