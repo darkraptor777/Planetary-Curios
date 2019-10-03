@@ -6,3 +6,27 @@ spriteTypes = {
 		alwaystransparent = yes		
 	}
 }
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evt_desert_ruins"
+		texturefile = "gfx/event_pictures/desert_ruins.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes		
+	}
+}
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evt_tech_ruins"
+		texturefile = "gfx/event_pictures/tech_ruins.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes		
+	}
+}
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evt_mountain_ring"
+		texturefile = "gfx/event_pictures/mountain_ring.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes		
+	}
+}

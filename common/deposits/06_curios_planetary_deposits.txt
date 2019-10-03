@@ -280,6 +280,84 @@ d_great_vortex = {
 	}
 }
 
+d_mineral_shore = {
+	is_for_colonizeable = yes
+	category = deposit_cat_rare
+	
+	icon = d_mineral_shore
+	
+	planet_modifier = {
+		district_mining_max = 6
+	}
+	
+	drop_weight = {
+		weight = @low_rare
+		modifier = {
+			factor = 2
+			is_planet_class = pc_arctic
+			is_planet_class = pc_tundra
+			is_planet_class = pc_savannah
+			is_planet_class = pc_ocean
+			is_planet_class = pc_continental
+			is_planet_class = pc_gaia
+		}		
+		modifier = {
+			factor = 0
+			is_planet_class = pc_desert
+			is_planet_class = pc_arid
+			solar_system = {
+				OR = {
+					has_star_flag = empire_home_system
+					has_star_flag = sol_system
+					has_star_flag = deneb_system
+				}
+			}
+		}		
+	}
+}
+
+
+d_plasma_vent = {
+	is_for_colonizeable = yes
+	category = deposit_cat_rare
+	
+	icon = d_underwater_vent
+	
+	planet_modifier = {
+		planet_resource_energy_add = 6
+		planet_clear_blocker_time_mult = 0.1
+	}
+	
+	drop_weight = {
+		weight = @mid_rare
+		
+		modifier = {
+			factor = 3
+			is_planet_class = pc_ocean
+		}
+		
+		modifier = {
+			factor = 1
+			is_planet_class = pc_arctic
+			is_planet_class = pc_tundra
+			is_planet_class = pc_savannah
+			is_planet_class = pc_continental
+			is_planet_class = pc_gaia
+		}		
+		modifier = {
+			factor = 0
+			is_planet_class = pc_desert
+			is_planet_class = pc_arid
+			solar_system = {
+				OR = {
+					has_star_flag = empire_home_system
+					has_star_flag = sol_system
+					has_star_flag = deneb_system
+				}
+			}
+		}		
+	}
+}
 
 ###################
 ##### SPECIAL #####
