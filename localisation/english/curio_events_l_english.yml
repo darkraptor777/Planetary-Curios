@@ -18,7 +18,7 @@
  DEEP_STATION_DESC:0 "While conducting a survey of [From.GetName], our scanners have picked up what appears to be some sort of structure deep beneath the waves."
  
  ####################################
- # Anomaly Categories
+ # Edicts
  ####################################
  edict_diplomacy_ferns:0 "Luminous Displays"
  edict_diplomacy_ferns_desc:0 "The calming effect often observed when viewing the ferns can be utilised in diplomatic meetings, helping give our empire a more relaxed appearance."
@@ -46,6 +46,8 @@
  d_mineral_shore_desc:0 "A rough shoreline covered in rich mineral deposits and sands."
  d_plasma_vent:0 "Plasma Vent"
  d_plasma_vent_desc:0 "This planets tectonic plates are more active than most, resulting in large amounts of core plasma escaping through the crust."
+ d_ammonia_lake:0 "Ammonia Lake"
+ d_ammonia_lake:0 "A lake of slightly diluted ammonia."
  
  d_luminescent_ferns_deposit:0 "Glowing Groves"
  d_luminescent_ferns_deposit_desc:0 "A secluded region filled with highly bioluminescent plants."
@@ -122,6 +124,10 @@
  giant_crystals_desc:0 "The crystal and mineral formations on this planet are abnormally large making mining efforts much more productive."
  clockwork_enigma:0 "Clockwork Enigma"
  clockwork_enigma_desc:0 "The vast majority of flora and fauna on the planet are meticulously crafted clockwork automatons."
+ blackhole_core: 0 "Black Hole Core"
+ blackhole_core_desc:0 "The interior of this planet is mainly hollow, with it's core inexplicably replaced with a mini black hole."
+ silicon_life:0 "Silicon Life"
+ silicon_life_desc: 0 "Life on this planet is silicon based rather than carbon based. Needless to say this has many bioligists scrambling for a closer look."
  
  ####################################
  # Dig Sites

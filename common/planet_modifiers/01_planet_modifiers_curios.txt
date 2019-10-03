@@ -167,13 +167,13 @@ pm_clockwork_enigma = {
 			OR = {
 				is_planet_class = pc_desert
 				is_planet_class = pc_arid
-				is_planet_class = "pc_savannah"
+				is_planet_class = pc_savannah
 				is_planet_class = pc_tropical
 				is_planet_class = pc_continental
 				is_planet_class = pc_ocean
 				is_planet_class = pc_arctic
 				is_planet_class = pc_tundra
-				is_planet_class = "pc_alpine"
+				is_planet_class = pc_alpine
 				is_planet_class = pc_gaia
 				is_planet_class = pc_relic
 			}
@@ -181,4 +181,50 @@ pm_clockwork_enigma = {
 		
 	}
 	modifier = "clockwork_enigma"
+}
+
+pm_blackhole_core = {
+	spawn_chance = {
+		modifier = {
+			add =10
+			OR = {
+				is_planet_class = pc_desert
+				is_planet_class = pc_arid
+				is_planet_class = pc_savannah
+				is_planet_class = pc_tropical
+				is_planet_class = pc_continental
+				is_planet_class = pc_ocean
+				is_planet_class = pc_arctic
+				is_planet_class = pc_tundra
+				is_planet_class = pc_alpine
+			}
+		}
+		modifier = {
+			add = 8
+			is_planet_class = pc_gaia
+		}
+	}
+	modifier = "blackhole_core"
+}
+
+pm_silicon_life = {
+	spawn_chance = {
+		modifier = {
+			add =10
+			OR = {
+				is_planet_class = pc_desert
+				is_planet_class = pc_arid
+				is_planet_class = pc_savannah
+				is_planet_class = pc_tropical
+				is_planet_class = pc_continental
+				is_planet_class = pc_ocean
+				is_planet_class = pc_arctic
+				is_planet_class = pc_tundra
+				is_planet_class = pc_alpine
+				
+				is_planet_class = pc_gaia
+			}
+		}
+	}
+	modifier = "silicon_life"
 }
