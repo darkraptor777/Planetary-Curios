@@ -228,3 +228,71 @@ pm_silicon_life = {
 	}
 	modifier = "silicon_life"
 }
+
+pm_dense_atmosphere = {
+	spawn_chance = {
+		modifier = {
+			add =10
+			OR = {
+				is_planet_class = pc_desert
+				is_planet_class = pc_arid
+				is_planet_class = pc_savannah
+				is_planet_class = pc_tropical
+				is_planet_class = pc_continental
+				is_planet_class = pc_ocean
+				is_planet_class = pc_arctic
+				is_planet_class = pc_tundra
+				is_planet_class = pc_alpine
+				
+				is_planet_class = pc_gaia
+			}
+		}
+		modifier = {
+			factor = 0
+			has_planet_modifier = pm_thin_atmosphere
+		}
+	}
+	modifier = "dense_atmosphere"
+}
+
+pm_thin_atmosphere = {
+	spawn_chance = {
+		
+		modifier = {
+			add =10
+			OR = {
+				is_planet_class = pc_desert
+				is_planet_class = pc_arid
+				is_planet_class = pc_savannah
+				is_planet_class = pc_tropical
+				is_planet_class = pc_continental
+				is_planet_class = pc_ocean
+				is_planet_class = pc_arctic
+				is_planet_class = pc_tundra
+				is_planet_class = pc_alpine
+				
+				is_planet_class = pc_gaia
+			}
+		}
+		modifier = {
+			factor = 0
+			has_planet_modifier = pm_dense_atmosphere
+		}
+	}
+	modifier = "thin_atmosphere"
+}
+
+pm_neutrino_storms = {
+	spawn_chance = {
+		
+		modifier = {
+			add =5
+			solar_system = {
+					OR = {
+						//is neutron stars
+					}
+			}
+		}
+	}
+	modifier = "neutrino_storms"
+}

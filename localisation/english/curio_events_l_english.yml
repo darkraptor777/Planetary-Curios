@@ -124,10 +124,14 @@
  giant_crystals_desc:0 "The crystal and mineral formations on this planet are abnormally large making mining efforts much more productive."
  clockwork_enigma:0 "Clockwork Enigma"
  clockwork_enigma_desc:0 "The vast majority of flora and fauna on the planet are meticulously crafted clockwork automatons."
- blackhole_core: 0 "Black Hole Core"
+ blackhole_core:0 "Black Hole Core"
  blackhole_core_desc:0 "The interior of this planet is mainly hollow, with it's core inexplicably replaced with a mini black hole."
  silicon_life:0 "Silicon Life"
- silicon_life_desc: 0 "Life on this planet is silicon based rather than carbon based. Needless to say this has many bioligists scrambling for a closer look."
+ silicon_life_desc:0 "Life on this planet is silicon based rather than carbon based. Needless to say this has many bioligists scrambling for a closer look."
+ dense_atmosphere:0 "Dense Atmosphere"
+ dense_atmosphere_desc:0 "This planet has an unusually thick atmosphere, limiting construction efforts."
+ thin_atmosphere:0 "Thin Atmosphere"
+ thin_atmosphere_desc:0 "This planet has an unusually thin atmosphere, making construction efforts easier."
  
  ####################################
  # Dig Sites
