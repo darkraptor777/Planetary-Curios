@@ -41,7 +41,10 @@ tech_harvest_luminescent_ferns = {
 			factor = 0
 			NOT = {
 				any_owned_planet = {
-					has_deposit = d_luminescent_ferns_deposit
+					OR = {
+						has_deposit = d_luminescent_ferns_deposit
+						has_deposit = d_luminescent_ferns_tree_deposit
+					}
 				}
 			}
 		}
