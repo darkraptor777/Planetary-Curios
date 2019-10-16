@@ -289,7 +289,7 @@ pm_neutrino_storms = {
 			add =5
 			solar_system = {
 					OR = {
-						//is neutron stars
+						has_planet_class = pc_neutron_star
 					}
 			}
 		}

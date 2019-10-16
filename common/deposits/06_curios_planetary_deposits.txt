@@ -324,8 +324,15 @@ d_plasma_vent = {
 	
 	icon = d_underwater_vent
 	
+	resources = {
+		category = planet_deposits
+		produces = {
+			energy = 6
+		}
+	}
+	
 	planet_modifier = {
-		planet_resource_energy_add = 6
+		
 		planet_clear_blocker_time_mult = 0.1
 	}
 	

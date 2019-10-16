@@ -132,6 +132,8 @@
  dense_atmosphere_desc:0 "This planet has an unusually thick atmosphere, limiting construction efforts."
  thin_atmosphere:0 "Thin Atmosphere"
  thin_atmosphere_desc:0 "This planet has an unusually thin atmosphere, making construction efforts easier."
+ neutrino_storms:0 "Neutrino Storms"
+ neutrino_storms_desc:0 "The surface of this planet is frequnetly bathed in large bursts of neutrinos from it's parent star."
  
  ####################################
  # Dig Sites
