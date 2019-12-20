@@ -37,7 +37,9 @@ This mod is now supported by (and requires) the Universal Resources Patch.
 
 
 [h1]Localisations[/h1]
-Mod currently has the following localisations:
+Mod currently has the following localisations which you can find in the collection above:
 [list]
 [*] English
+[*] Russian
+[*] Japanese
 [/list]
