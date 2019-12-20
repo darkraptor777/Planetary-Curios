@@ -286,12 +286,9 @@ pm_neutrino_storms = {
 	spawn_chance = {
 		
 		modifier = {
-			add =5
-			solar_system = {
-					OR = {
-						has_planet_class = pc_neutron_star
-					}
-			}
+			add =1
+			is_planet_class = pc_neutron_star
+			
 		}
 	}
 	modifier = "neutrino_storms"

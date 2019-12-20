@@ -47,7 +47,7 @@
  d_plasma_vent:0 "Plasma Vent"
  d_plasma_vent_desc:0 "This planets tectonic plates are more active than most, resulting in large amounts of core plasma escaping through the crust."
  d_ammonia_lake:0 "Ammonia Lake"
- d_ammonia_lake:0 "A lake of slightly diluted ammonia."
+ d_ammonia_lake_desc:0 "A lake of slightly diluted ammonia."
  
  d_luminescent_ferns_deposit:0 "Glowing Groves"
  d_luminescent_ferns_deposit_desc:0 "A secluded region filled with highly bioluminescent plants."
@@ -122,6 +122,8 @@
  nebulous_fog_desc:0 "An unusual thick fog creeps through this planets valleys and plains, with proper planning this could aid planetary defense initiatives."
  giant_crystals:0 "Giant Crystals"
  giant_crystals_desc:0 "The crystal and mineral formations on this planet are abnormally large making mining efforts much more productive."
+ metals_toxic:0 "Toxic Metals"
+ metals_toxic_desc:0 "All the metal compounds present on this plant have various toxic qualities."
  clockwork_enigma:0 "Clockwork Enigma"
  clockwork_enigma_desc:0 "The vast majority of flora and fauna on the planet are meticulously crafted clockwork automatons."
  blackhole_core:0 "Black Hole Core"
