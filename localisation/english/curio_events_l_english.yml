@@ -179,3 +179,14 @@
  sleepers_site:0 "Those Who Sleep"
  
  shifting_sands_site:0 "Shifting Sands"
+ shifting_sands_site_intro:0 "Scans have picked up a small building partly buried by the desert sands. Curiously the interior of the building spans a vast network of rooms and tunnels below the planets surface which appear to extend far outside the range of our scanners..."
+ curio.130.name:0 "The Dunes Have Eyes"
+ curio.130.desc:0 "The expedition has struggled to get past the first hurdle. The underground complex is sealed off behind a set of cyclopean doors which have yet to be successfully opened despite the expeditions best efforts, less delicate methods not withstanding. The atmosphere among the expedition has grown increasingly paranoid as a number of individuals have reported the feeling of being watched which has not been helped by the recent discovery that the dunes shift in abnormal directions, even moving crosswind. The cause of this enviromental behaviour is currently unknown."
+ curio.131.name:0 "The Network"
+ curio.131.desc:0 "The doors have finally been opened by the dig team after painstakingly decyphering what can best be described as glyphs or runes. Beyond the doors spans the vast labyrinthian underground network of rooms and corridors. However the structure beyond appears far more technologically advanced than the dusty stone of the surface ruins, leading some among the expedition to speculate the stone ruins served as some kind of disguise or serve some aesthetic purpose. Preliminary exploration of the network has proven difficult as the structure itself appears to be inhibiting wireless communication."
+ curio.132.name:0 "The Network"
+ curio.132.desc:0 ""
+ curio.133.name:0 ""
+ curio.133.desc:0 ""
+ 
+ 

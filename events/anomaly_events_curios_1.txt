@@ -164,7 +164,7 @@ fleet_event = {
 
 	option = {
 		name = curio.104.a
-		small_artifact_reward = yes
+		medium_artifact_reward = yes
 	}
 }
 
@@ -191,6 +191,7 @@ fleet_event = {
 
 	option = {
 		name = EXCELLENT
+		medium_artifact_reward = yes
 		owner = {
 			add_relic = r_maw_egg
 		}
@@ -321,7 +322,7 @@ fleet_event = {
 					spawn_system = {
 						min_distance = 20
 						max_distance = 40
-						max_jumps = 0
+						max_jumps = 1
 						initializer = "Gilded_system"
 					}
 				}
@@ -332,7 +333,7 @@ fleet_event = {
 					spawn_system = {
 						min_distance = 20
 						max_distance = 40
-						max_jumps = 0
+						max_jumps = 1
 						initializer = "Gilded_system"
 					}
 				}
@@ -400,6 +401,119 @@ fleet_event = {
 			}
 			give_technology = { tech = tech_gilded_arks }
 		}
+	}
+}
+
+
+
+#Shifting Sands Stage 1
+fleet_event = { 
+	id = curio.130
+	title = "curio.130.name"
+	desc = curio.130.desc
+	picture = GFX_evt_discovered_hidden_door
+	show_sound = event_bad_omens
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = CURIOUS
+		small_artifact_reward = yes
+		leader = {
+			add_trait = leader_trait_paranoid
+		}
+	}
+}
+
+#Shifting Sands Stage 2
+fleet_event = { 
+	id = curio.131
+	title = "curio.131.name"
+	desc = curio.131.desc
+	picture = GFX_evt_tech_ruins
+	show_sound = event_bad_omens
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = "I See"
+		small_artifact_reward = yes
+	}
+}
+
+#Shifting Sands Stage 3
+fleet_event = { 
+	id = curio.132
+	title = "curio.132.name"
+	desc = curio.132.desc
+	picture = GFX_evt_discovered_hidden_door
+	show_sound = event_bad_omens
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = CURIOUS
+		medium_artifact_reward = yes
+	}
+}
+
+#Shifting Sands Stage 4
+fleet_event = { 
+	id = curio.133
+	title = "curio.133.name"
+	desc = curio.133.desc
+	picture = GFX_evt_discovered_hidden_door
+	show_sound = event_bad_omens
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = CURIOUS
+		small_artifact_reward = yes
 	}
 }
 

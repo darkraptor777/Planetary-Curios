@@ -148,3 +148,58 @@ gilded_sun_site2 = {
 		}
 	}
 }
+
+#Shifting Sands
+shifting_sands_site = {
+	desc = shifting_sands_site_intro
+	picture = GFX_evt_desert_ruins
+	stages = 4
+	max_instances = 1
+	allow = {
+		is_ship_class = shipclass_science_ship
+		exists = leader
+	}
+	visible = {
+		default_site_visible_trigger = yes
+	}
+	on_visible = {
+		country_event = { id = story.5 days = 30 }
+	}	
+	
+	weight = {
+		base = 60
+		modifier = {
+			factor = 0
+			NOT = {
+				is_planet_class = pc_desert
+			}
+		}
+	}
+	
+	stage = {
+		difficulty = 2
+		icon = GFX_archaeology_runes_A1
+		event = curio.130
+	}
+	stage = {
+		difficulty = 3
+		icon = GFX_archaeology_runes_A2
+		event = curio.131
+	}
+	stage = {
+		difficulty = 3
+		icon = GFX_archaeology_runes_A3
+		event = curio.132
+	}
+	stage = {
+		difficulty = 5
+		icon = GFX_archaeology_runes_A4
+		event = curio.133
+	}
+
+	on_roll_failed = {
+		from = {
+			standard_archaeological_site_on_roll_failed = { RANDOM_EVENTS = all_random_events }
+		}
+	}
+}
