@@ -153,7 +153,7 @@ gilded_sun_site2 = {
 shifting_sands_site = {
 	desc = shifting_sands_site_intro
 	picture = GFX_evt_desert_ruins
-	stages = 4
+	stages = 5
 	max_instances = 1
 	allow = {
 		is_ship_class = shipclass_science_ship
@@ -195,6 +195,11 @@ shifting_sands_site = {
 		difficulty = 5
 		icon = GFX_archaeology_runes_A4
 		event = curio.133
+	}
+	stage = {
+		difficulty = 5
+		icon = GFX_archaeology_runes_A5
+		event = curio.134
 	}
 
 	on_roll_failed = {

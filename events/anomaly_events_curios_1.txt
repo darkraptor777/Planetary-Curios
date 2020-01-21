@@ -468,7 +468,7 @@ fleet_event = {
 	id = curio.132
 	title = "curio.132.name"
 	desc = curio.132.desc
-	picture = GFX_evt_discovered_hidden_door
+	picture = GFX_evt_tech_ruins
 	show_sound = event_bad_omens
 	location = from
 
@@ -495,7 +495,7 @@ fleet_event = {
 	id = curio.133
 	title = "curio.133.name"
 	desc = curio.133.desc
-	picture = GFX_evt_discovered_hidden_door
+	picture = GFX_evt_tech_ruins
 	show_sound = event_bad_omens
 	location = from
 
@@ -513,7 +513,44 @@ fleet_event = {
 
 	option = {
 		name = CURIOUS
+		medium_artifact_reward = yes
+		owner = {
+			add_resource = {
+				physics_research = 1000
+			}
+		}
+	}
+}
+
+#Shifting Sands Stage 5
+fleet_event = { 
+	id = curio.134
+	title = "curio.134.name"
+	desc = curio.134.desc
+	picture = GFX_evt_discovered_hidden_door
+	show_sound = event_bad_omens
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = "Troubling"
 		small_artifact_reward = yes
+		owner = {
+			add_resource = {
+				society_research = 500
+			}
+		}
 	}
 }
 
