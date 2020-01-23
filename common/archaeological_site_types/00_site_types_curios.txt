@@ -149,9 +149,9 @@ gilded_sun_site2 = {
 	}
 }
 
-#Shifting Sands
-shifting_sands_site = {
-	desc = shifting_sands_site_intro
+#The Network
+the_network_site = {
+	desc = the_network_site_intro
 	picture = GFX_evt_desert_ruins
 	stages = 5
 	max_instances = 1

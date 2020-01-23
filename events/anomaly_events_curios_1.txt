@@ -406,7 +406,7 @@ fleet_event = {
 
 
 
-#Shifting Sands Stage 1
+#The Network Stage 1
 fleet_event = { 
 	id = curio.130
 	title = "curio.130.name"
@@ -436,7 +436,7 @@ fleet_event = {
 	}
 }
 
-#Shifting Sands Stage 2
+#The Network Stage 2
 fleet_event = { 
 	id = curio.131
 	title = "curio.131.name"
@@ -463,7 +463,7 @@ fleet_event = {
 	}
 }
 
-#Shifting Sands Stage 3
+#The Network Stage 3
 fleet_event = { 
 	id = curio.132
 	title = "curio.132.name"
@@ -490,7 +490,7 @@ fleet_event = {
 	}
 }
 
-#Shifting Sands Stage 4
+#The Network Stage 4
 fleet_event = { 
 	id = curio.133
 	title = "curio.133.name"
@@ -522,7 +522,7 @@ fleet_event = {
 	}
 }
 
-#Shifting Sands Stage 5
+#The Network Stage 5
 fleet_event = { 
 	id = curio.134
 	title = "curio.134.name"
