@@ -136,6 +136,8 @@
  thin_atmosphere_desc:0 "This planet has an unusually thin atmosphere, making construction efforts easier."
  neutrino_storms:0 "Neutrino Storms"
  neutrino_storms_desc:0 "The surface of this planet is frequnetly bathed in large bursts of neutrinos from it's parent star."
+ naturally_repulsive:0 "Naturally Repulsive"
+ naturally_repulsive_desc:0 "The landscapes and wildlife on this planet are horrific and disturbing. Few feel at ease in the natural enviroment of this planet."
  
  ####################################
  # Dig Sites
