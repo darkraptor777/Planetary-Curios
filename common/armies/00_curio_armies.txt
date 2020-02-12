@@ -21,3 +21,29 @@ mawlurk_army = {
 		always = no
 	}
 }
+
+
+# Bioweapons army (uses ferns)
+bioweapons_army = {
+	damage = 3.0
+	health = 4.0
+	has_morale = yes
+	morale_damage = 8.0
+	collateral_damage = 2.0
+	war_exhaustion = 5.0
+	time = 20
+	icon_frame = 8
+	has_species = no
+
+	resources = {
+		category = armies
+		upkeep = {
+			energy = 3
+			luminescent_ferns = 0.2
+		}
+	}
+
+	potential = {
+		always = no
+	}
+}
