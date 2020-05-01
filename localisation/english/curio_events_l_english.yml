@@ -79,6 +79,17 @@
  job_infestation_researcher_desc:0 "A certain aptitude is required for studying the infestation. Those with a more squeamish disposition don't tend to last long on the job."
  mod_job_infestation_researcher_add:0 "Infestation Researcher Jobs"
  
+ ##################
+ # ARMIES
+ ##################
+ bioweapons_army:0 "Bioweapons Army"
+ bioweapons_army_desc:0 "An army specialised in biological warfare. The fern spores are used to their full, nerve shredding, effect with brutal efficiency."
+ 
+ ##################
+ # TRAITS
+ ##################
+ trait_dream_ridden:0 "Dream-ridden"
+ trait_dream_ridden_desc:0 "These genes allow our citizens to enter a deep sleep bordering on hibernation. This deep sleep lengthens and improves out citizens lives however this increased sleeping period negatively impacts productivity."
  
  ####################################
  # Buildings
@@ -110,6 +121,10 @@
  tech_refine_luminescent_ferns_desc:0 "Fern refinement is a long and complex process requiring specialist equipment and safety training."
  tech_gilded_arks:0 "Gilded Arks"
  tech_gilded_arks_desc:0 "The arks made by the Church of the Gilded Sun had some innovative methods of citizen storage."
+ tech_dream_ridden:0 "Dream-riddden Genes"
+ tech_dream_ridden_desc:0 "The genes we recovered from the creature can be used to allow our citizens to enter a deep sleep bordering on hibernation."
+ tech_luminescent_army:0 "Bioweapons Developement"
+ tech_luminescent_army_desc:0 "The hazardous nature of luminescent fern spores could potentially be put to more nefarious use."
  
  ####################################
  # Planetary Modifiers
@@ -196,11 +211,12 @@
  curio.140.name:0 "Rusty Works"
  curio.140.desc:0 "A search of the external, smaller storage facilities has been conducted by the dig team. Documents recovered reveal that this site was a depot of sorts which stored minerals mined from nearby asteroids. These minerals would then be delivered elsewhere to be processed or refined. The derelict machinery, despite it's current condition, it's relatively similar to our own with some of it's own distinguishing features. All the storage crates recovered so far have been empty, despite being sealed and seemingly ready to be shipped."
  curio.141.name:0 "Rusty Works"
- curio.141.desc:0 "Security inside the central facility has proven more difficult to bypass than in the smaller sites. Giant metal doors seprate the facility into different sections, each with it's own numbered designation. Dozens of stacked crates and boxes litter the room, some are even protected with mag-locks and yet all that were searched were empty. The crew managed to restore power to one of the terminals within the facility, partial logs detail information about the entire complex going into an emergency shutdown. Aside from some meaningless alarm codes the reason for the shutdown is not elaborated on at all, just that the shutdown would last an undetermined amount of time. At the suggestion of [Root.GetLeaderName] crew members will proceed in biohazard suits incase the bio-signatures detected are the cause of the shutdown."
+ curio.141.desc:0 "Security inside the central facility has proven more difficult to bypass than in the smaller sites. Giant metal doors seprate the facility into different sections, each with it's own numbered designation. Dozens of stacked crates and boxes litter the room, some are even protected with mag-locks and yet all that were searched were empty. \n The crew managed to restore power to one of the terminals within the facility, partial logs detail information about the entire complex going into an emergency shutdown. Aside from some meaningless alarm codes the reason for the shutdown is not elaborated on at all, just that the shutdown would last an undetermined amount of time. At the suggestion of [Root.GetLeaderName] crew members will proceed in biohazard suits incase the bio-signatures detected are the cause of the shutdown."
  curio.142.name:0 "Those Who Sleep"
- curio.142.desc:0 "Progress through the facility has been slowed down due to needing to open the large metal doors that seperate the different sections. However after exploring numerous sections of the facility the crew encountered multiple grey bipeds all stood completely still and unresponsive. They do appear to be photo-sensitive however, with light exposure causing minor muscle convulsions. This is despite them being, by all medical measures, deceased. They are being treated with the unmost caution so that they are not disturbed. Based on images recovered elsewhere on the site these creatures are not the architects of the facility, their appearance and bone structure differ greatly. These grey bipeds have been dubbed §H'Sleepers'§! by crew members due to their partial, sleep-like, responsiveness. Portable scanners have picked up a life sign deeper within the facility and the crew is determined to press forwards and find it's source."
+ curio.142.desc:0 "Progress through the facility has been slowed down due to needing to open the large metal doors that seperate the different sections. However after exploring numerous sections of the facility the crew encountered multiple grey bipeds all stood completely still and unresponsive. They do appear to be photo-sensitive however, with light exposure causing minor muscle convulsions. This is despite them being, by all medical measures, deceased. They are being treated with the unmost caution so that they are not disturbed. \n\n Based on images recovered elsewhere on the site these creatures are not the architects of the facility, their appearance and bone structure differ greatly. These grey bipeds have been dubbed §H'Sleepers'§! by crew members due to their partial, sleep-like, responsiveness. Portable scanners have picked up a life sign deeper within the facility and the crew is determined to press forwards and find it's source."
  curio.143.name:0 "Those Who Sleep"
  curio.143.desc:0 "Dozens of more §HSleepers§! have been encountered by the crew, with the number of them seemingly increasing as the crew get closer and closer to the source of the life-sign. Additional storage objects have been encountered as well, including primitive stasis-caskets with their occupants long expired. The occupants however, are of much more interest than their caskets as they match images and descriptions of the species that built the facility. Based on their clothing and the rudimentary imformation each stasis-casket stored on it's occupant they appear to all have been high ranking workers at the facility when it was operational. It is believed they entered these stasis-caskets when the facility lockdown began in an effort to protect themselves."
  curio.144.name:0 "Dream-ridden"
  curio.144.desc:0 "Finally the crew has made it to the source of the bio-signatures. This chamber is significantly larger than the others, with the ceiling being concealed in shadow and large pentagonal tubes descending from it's depths and covering the walls. The tubes all connect to a single, giant casket stood upright in the centre of the room. Vitals indicated that the gargantuan creature housed inside was alive, but regrettably efforts to open the casket ended in it's termination. Despite this good news abounds, autopsies carried out on the creature have provided insight into how we might apply genetic improvements to some of our citizens."
  
+thunder_site:0 "Men of Thunder"

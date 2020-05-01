@@ -1,7 +1,22 @@
-﻿trait_grey_mutagens = {
-	cost = 0
-	icon = "gfx/interface/icons/traits/trait_mutagenic.dds"
-	prerequisites = { tech_grey_mutagens }
+﻿#trait_grey_mutagens = {
+#	cost = 0
+#	icon = "gfx/interface/icons/traits/trait_mutagenic.dds"
+#	prerequisites = { tech_grey_mutagens }
+#	initial = no
+#	randomized = no
+#	modification = no
+#
+#	allowed_archetypes = { BIOLOGICAL }
+
+#	modifier = {
+#	}
+#}
+
+trait_dream_ridden = {
+	cost = 1
+	potential_crossbreeding_chance = 1.0
+	icon = "gfx/interface/icons/traits/trait_dream_ridden.dds"
+	prerequisites = { tech_dream_ridden }
 	initial = no
 	randomized = no
 	modification = no
@@ -9,5 +24,8 @@
 	allowed_archetypes = { BIOLOGICAL }
 
 	modifier = {
+		planet_jobs_produces_mult = -0.05
+		leader_age = 20
+		pop_happiness = 0.08
 	}
 }

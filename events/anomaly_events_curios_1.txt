@@ -412,7 +412,7 @@ fleet_event = {
 	title = "curio.130.name"
 	desc = curio.130.desc
 	picture = GFX_evt_discovered_hidden_door
-	show_sound = event_bad_omens
+	show_sound = event_whispering
 	location = from
 
 	archaeology = yes
@@ -442,7 +442,7 @@ fleet_event = {
 	title = "curio.131.name"
 	desc = curio.131.desc
 	picture = GFX_evt_tech_ruins
-	show_sound = event_bad_omens
+	show_sound = event_big_door_opening
 	location = from
 
 	archaeology = yes
@@ -469,7 +469,7 @@ fleet_event = {
 	title = "curio.132.name"
 	desc = curio.132.desc
 	picture = GFX_evt_tech_ruins
-	show_sound = event_bad_omens
+	show_sound = event_machinery
 	location = from
 
 	archaeology = yes
@@ -496,7 +496,7 @@ fleet_event = {
 	title = "curio.133.name"
 	desc = curio.133.desc
 	picture = GFX_evt_tech_ruins
-	show_sound = event_bad_omens
+	show_sound = event_bad_omen
 	location = from
 
 	archaeology = yes
@@ -516,7 +516,7 @@ fleet_event = {
 		medium_artifact_reward = yes
 		owner = {
 			add_resource = {
-				physics_research = 1000
+				physics_research = 300
 			}
 		}
 	}
@@ -528,7 +528,154 @@ fleet_event = {
 	title = "curio.134.name"
 	desc = curio.134.desc
 	picture = GFX_evt_discovered_hidden_door
-	show_sound = event_bad_omens
+	show_sound = event_bad_omen
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = "Troubling"
+		small_artifact_reward = yes
+		owner = {
+			add_resource = {
+				society_research = 1000
+			}
+		}
+	}
+}
+
+
+
+#Sleepers Stage 1
+fleet_event = { 
+	id = curio.140
+	title = "curio.140.name"
+	desc = curio.140.desc
+	picture = GFX_evt_mining_operations
+	show_sound = event_metal_fatigue
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = CURIOUS
+		small_artifact_reward = yes
+	}
+}
+
+#Sleepers Stage 2
+fleet_event = { 
+	id = curio.141
+	title = "curio.141.name"
+	desc = curio.141.desc
+	picture = GFX_evt_derelict_interior
+	show_sound = event_metal_fatigue
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = CURIOUS
+		small_artifact_reward = yes
+	}
+}
+
+#Sleepers Stage 3
+fleet_event = { 
+	id = curio.142
+	title = "curio.142.name"
+	desc = curio.142.desc
+	picture = GFX_evt_derelict_interior
+	show_sound = event_screams
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = CURIOUS
+		small_artifact_reward = yes
+	}
+}
+
+#Sleepers Stage 4
+fleet_event = { 
+	id = curio.143
+	title = "curio.143.name"
+	desc = curio.143.desc
+	picture = GFX_evt_clones
+	show_sound = event_bad_omen
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = CURIOUS
+		small_artifact_reward = yes
+		owner = {
+			add_resource = {
+				society_research = 500
+			}
+		}
+	}
+}
+
+#Sleepers Stage 5
+fleet_event = { 
+	id = curio.144
+	title = "curio.144.name"
+	desc = curio.144.desc
+	picture = GFX_evt_clones
+	show_sound = event_bad_omen
 	location = from
 
 	archaeology = yes
@@ -550,6 +697,7 @@ fleet_event = {
 			add_resource = {
 				society_research = 500
 			}
+			give_technology = { tech = tech_dream_ridden }
 		}
 	}
 }
