@@ -230,5 +230,11 @@
  curio.152.name:0 "Unseen Threat"
  curio.152.desc:0 "[Root.GetLeaderName] has reached the conclusion that the civilization on [From.Planet.GetName] fell victim to a planet-wide plague. Other artifacts recovered indicate that the scope of the §HHarbingers of Annihilation's§! operations were insignificant and that they had no involvment this planet-wide catastophy. It is believed that the nuclear devestation observed was merely the result of the various nuclear stockpiles slowly falling into disrepair and detonating due to malfunctions, erasing most of what this civilisation left behind."
 
- 
-thunder_site:0 "Men of Thunder"
+ thunder_site:0 "Men of Thunder"
+ ####################################
+ # Event Responses
+ ####################################
+ TRAGIC:0 "Tragic."
+ I_SEE:0 "I See."
+ TROUBLING:0 "Troubling."
+ UNFORTUNATE:0 "Unfortunate."

@@ -393,7 +393,7 @@ fleet_event = {
 	}
 
 	option = {
-		name = "Tragic."
+		name = TRAGIC
 		medium_artifact_reward = yes
 		owner = {
 			add_resource = {
@@ -458,7 +458,7 @@ fleet_event = {
 	}
 
 	option = {
-		name = "I See"
+		name = I_SEE
 		small_artifact_reward = yes
 	}
 }
@@ -544,7 +544,7 @@ fleet_event = {
 	}
 
 	option = {
-		name = "Troubling"
+		name = TROUBLING
 		small_artifact_reward = yes
 		owner = {
 			add_resource = {
@@ -576,7 +576,7 @@ fleet_event = {
 	}
 
 	option = {
-		name = "Unfortunate"
+		name = I_SEE
 		large_artifact_reward = yes
 		owner = {
 			add_resource = {
@@ -584,7 +584,7 @@ fleet_event = {
 			}
 		}
 		leader = {
-			kill_leader = { yes }
+			kill_leader = { show_notification = yes }
 		}
 	}
 }
@@ -726,7 +726,7 @@ fleet_event = {
 	}
 
 	option = {
-		name = "Troubling"
+		name = TROUBLING
 		small_artifact_reward = yes
 		owner = {
 			add_monthly_resource_mult = {
@@ -815,7 +815,10 @@ fleet_event = {
 		from = { set_site_progress_locked = no } 
 	}
 
-	owner = { 
+	option = {
+		name = TRAGIC
+		small_artifact_reward = yes
+		owner = { 
 			if = {
 				limit = {
 					has_tech_option = tech_vitality_boosters
@@ -844,6 +847,7 @@ fleet_event = {
      			}
 			}
  		}
+	}
 }
 
 ####################################

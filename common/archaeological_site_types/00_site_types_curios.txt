@@ -279,7 +279,7 @@ sleepers_site = {
 doomcult_site = {
 	desc = doomcult_site_intro
 	picture = GFX_evt_city_ruins
-	stages = 2
+	stages = 3
 	max_instances = 1
 	allow = {
 		is_ship_class = shipclass_science_ship
@@ -297,7 +297,7 @@ doomcult_site = {
 		modifier = {
 			factor = 0
 			NOT = {
-				is_planet_class = pc_tomb
+				is_planet_class = pc_nuked
 			}
 		}
 	}
@@ -311,6 +311,11 @@ doomcult_site = {
 		difficulty = 3
 		icon = GFX_archaeology_runes_B2
 		event = curio.151
+	}
+	stage = {
+		difficulty = 3
+		icon = GFX_archaeology_runes_B3
+		event = curio.152
 	}
 
 

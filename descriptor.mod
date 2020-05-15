@@ -11,4 +11,4 @@ tags={
 }
 picture="PCurios_Icon.png"
 remote_file_id="1867143071"
-supported_version="2.6.*"
+supported_version="2.7.*"
