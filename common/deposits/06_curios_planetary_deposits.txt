@@ -405,6 +405,45 @@ d_ammonia_lake = {
 	}
 }
 
+d_psionic_region = {
+	is_for_colonizeable = yes
+	category = deposit_cat_rare
+	
+	icon = d_psionic_region
+	
+	planet_modifier = {
+		planet_jobs_unity_produces_mult = 0.50
+		pop_ethic_spiritualist_attraction_mult = 0.5
+	}
+	
+	drop_weight = {
+		weight = @mid_rare
+		
+		modifier = {
+			factor = 1
+			is_planet_class = pc_arctic
+			is_planet_class = pc_tundra
+			is_planet_class = pc_alpine
+			is_planet_class = pc_savannah
+			is_planet_class = pc_continental
+			is_planet_class = pc_ocean
+			is_planet_class = pc_tropical
+			is_planet_class = pc_desert
+			is_planet_class = pc_arid
+		}		
+		modifier = {
+			factor = 0
+			solar_system = {
+				OR = {
+					has_star_flag = empire_home_system
+					has_star_flag = sol_system
+					has_star_flag = deneb_system
+				}
+			}
+		}		
+	}
+}
+
 ###################
 ##### SPECIAL #####
 ###################
