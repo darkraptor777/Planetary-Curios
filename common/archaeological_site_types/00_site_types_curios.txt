@@ -153,7 +153,7 @@ gilded_sun_site2 = {
 the_network_site = {
 	desc = the_network_site_intro
 	picture = GFX_evt_desert_ruins
-	stages = 5
+	stages = 6
 	max_instances = 1
 	allow = {
 		is_ship_class = shipclass_science_ship
@@ -192,7 +192,7 @@ the_network_site = {
 		event = curio.132
 	}
 	stage = {
-		difficulty = 5
+		difficulty = 4
 		icon = GFX_archaeology_runes_A4
 		event = curio.133
 	}
@@ -200,6 +200,11 @@ the_network_site = {
 		difficulty = 5
 		icon = GFX_archaeology_runes_A5
 		event = curio.134
+	}
+	stage = {
+		difficulty = 5
+		icon = GFX_archaeology_runes_A6
+		event = curio.135
 	}
 
 	on_roll_failed = {
@@ -269,3 +274,56 @@ sleepers_site = {
 		}
 	}
 }
+
+#Doomsday Cult
+doomcult_site = {
+	desc = doomcult_site_intro
+	picture = GFX_evt_city_ruins
+	stages = 2
+	max_instances = 1
+	allow = {
+		is_ship_class = shipclass_science_ship
+		exists = leader
+	}
+	visible = {
+		default_site_visible_trigger = yes
+	}
+	on_visible = {
+		country_event = { id = story.5 days = 30 }
+	}	
+	
+	weight = {
+		base = 60
+		modifier = {
+			factor = 0
+			NOT = {
+				is_planet_class = pc_tomb
+			}
+		}
+	}
+	
+	stage = {
+		difficulty = 2
+		icon = GFX_archaeology_runes_B1
+		event = curio.150
+	}
+	stage = {
+		difficulty = 3
+		icon = GFX_archaeology_runes_B2
+		event = curio.151
+	}
+
+
+	on_roll_failed = {
+		from = {
+			standard_archaeological_site_on_roll_failed = { RANDOM_EVENTS = all_random_events }
+		}
+	}
+}
+
+
+#The Tower
+
+#Virtual Escape (Virus)
+
+#Men of Thunder

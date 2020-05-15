@@ -150,11 +150,12 @@ fern_refiner = {
 	resources = {
 		category = planet_jobs
 		produces = {
-			energy = 3
-			food = 4
+			luminescent_ferns = 2
+
 		}
 		upkeep = {
-			luminescent_ferns = 1
+			energy = 5
+			food = 5
 		}		
 	}
 	
@@ -243,11 +244,12 @@ fern_refiner_drone = {
 	resources = {
 		category = planet_jobs
 		produces = {
-			energy = 3
-			food = 4
+			luminescent_ferns = 2
 		}
 		upkeep = {
-			luminescent_ferns = 1
+
+			energy = 5
+			food = 5
 		}		
 	}	
 	
