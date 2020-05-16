@@ -7,7 +7,7 @@
 #THIS IS FOR TESTING DIG SITES SPAWNS
 #
 #namespace = ancrel
-#
+
 # Archaeology Site On Survey Spawn
 #ship_event = {
 #	id = ancrel.9999

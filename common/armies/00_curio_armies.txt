@@ -37,6 +37,10 @@ bioweapons_army = {
 
 	resources = {
 		category = armies
+		cost = {
+			minerals = 200
+			luminescent_ferns = 5
+		}
 		upkeep = {
 			energy = 3
 			luminescent_ferns = 0.05
@@ -58,6 +62,39 @@ bioweapons_army = {
 				NOT = { has_authority = auth_machine_intelligence }
 				has_civic = civic_machine_assimilator
 			}
+		}
+	}
+}
+
+bioweapons_army_mech = {
+	damage = 3.0
+	health = 4.0
+	has_morale = no
+	morale_damage = 8.0
+	collateral_damage = 2.0
+	war_exhaustion = 5.0
+	time = 150
+	icon_frame = 5
+	has_species = no
+
+	resources = {
+		category = armies
+		cost = {
+			minerals = 200
+			luminescent_ferns = 5
+		}
+		upkeep = {
+			energy = 3
+			luminescent_ferns = 0.05
+		}
+	}
+	
+	prerequisites = { "tech_luminescent_army" }
+
+	potential = {
+		owner = { has_authority = auth_machine_intelligence }
+		from = {
+			has_trait = "trait_machine_unit"
 		}
 	}
 }
