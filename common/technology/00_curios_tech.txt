@@ -74,7 +74,7 @@ tech_refine_luminescent_ferns = {
 	area = engineering
 	tier = 2
 	category = { materials }
-	prerequisites = { "tech_harvest_luminescent_ferns" }
+	prerequisites = { "tech_basic_industry" }
 	weight = @tier1weight2
 	
 	weight_modifier = {
@@ -100,12 +100,13 @@ tech_refine_luminescent_ferns = {
 	}	
 }
 tech_luminescent_army = {
-	cost = @tier1cost2
+	cost = @tier3cost1
 	area = society
-	tier = 2
+	tier = 3
+	is_rare = yes
 	category = { military_theory }
-	prerequisites = { "tech_harvest_luminescent_ferns" }
-	weight = @tier1weight2
+	prerequisites = { "tech_luminescent_gas" }
+	weight = @tier3weight1
 	
 	potential = {
 		NOT = { has_authority = auth_machine_intelligence }
@@ -129,6 +130,45 @@ tech_luminescent_army = {
 			research_leader = {
 				area = society
 				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}	
+}
+tech_luminescent_gas = {
+	cost = @tier2cost1
+	area = engineering
+	tier = 2
+	is_rare = yes
+	category = { materials }
+	prerequisites = { "tech_basic_industry" }
+	weight = 40
+	
+	
+	weight_modifier = {
+		factor = 1
+		modifier = {
+			factor = 2
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+					has_technology = tech_refine_luminescent_ferns
+					has_technology = tech_harvest_luminescent_ferns
+			}
+		}
+	}
+	
+	ai_weight = {
+		factor = 4
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
 			}
 		}
 	}	

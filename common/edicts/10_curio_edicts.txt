@@ -75,3 +75,39 @@ flare_ferns = {
 		}
 	}
 }
+
+gas_ferns = {
+
+	length = @EdictDuration
+	resources = {
+		category = ship_edicts
+		cost = {
+			luminescent_ferns = 500
+		}
+	}
+	
+	potential = {
+		has_technology = tech_luminescent_gas
+	}
+	
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = @EdictMedPrio
+			is_at_war = yes
+		}
+		modifier = {
+			weight = 0
+			AND = {
+					NOT = { has_policy_flag = orbital_bombardment_indiscriminate }
+					NOT = { has_policy_flag = orbital_bombardment_armageddon }
+			}
+		}
+	}
+	
+	#add_modifier = {
+	#	modifier = "fern_gassing"
+	#	days = @EdictDuration
+	#}
+
+}

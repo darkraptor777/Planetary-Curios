@@ -26,6 +26,8 @@
  edict_happy_ferns_desc:0 "We can use the glowing ferns in awe-inspiring parades and festivals to help placate the populace."
  edict_flare_ferns:0 "Luminous Flares"
  edict_flare_ferns_desc:0 "Chemical compounds present in the ferns make excellent emergency flares, allowing our ships to more easily disengage."
+ edict_gas_ferns:0 "Luminous Gas"
+ edict_gas_ferns_desc:0 "The fern gas is used to its full, nerve shredding and circuit frying, effect with brutal and indesciminant efficiency."
  
  ####################################
  # Deposits
@@ -48,6 +50,8 @@
  d_plasma_vent_desc:0 "This planets tectonic plates are more active than most, resulting in large amounts of core plasma escaping through the crust."
  d_ammonia_lake:0 "Ammonia Lake"
  d_ammonia_lake_desc:0 "A lake of slightly diluted ammonia."
+ d_psionic_region:0 "Purple Veil"
+ d_psionic_region_desc:0 "A region which augments individuals with psyionic powers."
  
  d_luminescent_ferns_deposit:0 "Glowing Groves"
  d_luminescent_ferns_deposit_desc:0 "A secluded region filled with highly bioluminescent plants."
@@ -83,7 +87,10 @@
  # ARMIES
  ##################
  bioweapons_army:0 "Bioweapons Army"
- bioweapons_army_desc:0 "An army specialised in biological warfare. The fern spores are used to their full, nerve shredding, effect with brutal efficiency."
+ bioweapons_army_desc:0 "An army specialised in biological warfare. The fern spores are used to their full, nerve shredding and circuit frying, effect with brutal efficiency."
+ 
+ bombardment_ferns:0 "Luminescent Gassing"
+ bombardment_ferns_desc:3 "$bombardment_ferns$ Bombardment releases nerve shredding gas with no regard for civilian casualties.\n- §HHeavy§! damage to §YArmies§!\n- §HLight§! damage to §YPlanet§!\n- §YHeavy§! damage to §YPops§!\n- Will bombard undefended planets\n- §RWill§! kill the last Pops"
  
  ##################
  # TRAITS
@@ -125,12 +132,16 @@
  tech_dream_ridden_desc:0 "The genes we recovered from the creature can be used to allow our citizens to enter a deep sleep bordering on hibernation."
  tech_luminescent_army:0 "Bioweapons Developement"
  tech_luminescent_army_desc:0 "The hazardous nature of luminescent fern spores could potentially be put to more nefarious use."
- 
  ####################################
- # Planetary Modifiers
+ # Modifiers
  ####################################
  luminescent_ferns_deficit:0 "Luminescent Ferns Deficit"
  luminescent_ferns_deficit_desc:0 "We don't have enough luminescent ferns for our production."
+ fern_gassing:0 "Fern Gassing"
+ fern_gassing_desc:0 "Gas has been manufactured from luminescent fern spores, a weapon to be used should our hand be forced."
+ ####################################
+ # Planetary Modifiers
+ ####################################
  noxious_fissures:0 "Noxious Fissures"
  noxious_fissures_desc:0 "Toxic gas seeps out of various cracks and fissures across this planets surface."
  nebulous_fog:0 "Nebulous Fog"

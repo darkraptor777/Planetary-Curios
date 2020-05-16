@@ -98,3 +98,7 @@ naturally_repulsive = {
 	icon = "gfx/interface/icons/planet_modifiers/pm_dangerous_wildlife.dds"
 	icon_frame = 3
 }
+
+fern_gassing = {
+	icon = "gfx/interface/icons/modifiers/mod_javorian_pox.dds"
+}
