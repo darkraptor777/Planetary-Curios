@@ -154,73 +154,38 @@ fern_refiner = {
 
 		}
 		upkeep = {
-			energy = 5
-			food = 5
+			energy = 6
+			food = 8
 		}		
 	}
 	
 	weight = {
 		weight = @specialist_job_weight
 		modifier = {
-			factor = 10
-			is_enslaved = yes
-			can_take_servant_job = no
-		}
-		modifier = {
-			factor = 2
-			OR = {	
-				is_non_sapient_robot = yes
-				is_shackled_robot = yes
-			}
-			can_take_servant_job = no
-			owner = { has_technology = tech_droid_workers }
-		}	
-		modifier = {
-			factor = 200
-			OR = {	
-				is_non_sapient_robot = yes
-				is_shackled_robot = yes
-			}
-			can_take_servant_job = no
-			owner = { NOT = { has_technology = tech_droid_workers } }
+			factor = 0.2
+			has_citizenship_rights = no
+			NOT = { has_trait = trait_mechanical }
 		}
 		modifier = {
 			factor = 0.1
 			can_take_servant_job = yes
 		}
 		modifier = {
-			factor = 5
-			has_trait = trait_syncretic_proles
+			factor = 7
+			has_job = fern_refiner
 		}
 		modifier = {
-			factor = 2
-			species = {
-				has_species_flag = racket_species_flag
-			}
-		}
-		modifier = {
-			factor = 3
-			has_trait = trait_very_strong
-		}
-		modifier = {
-			factor = 1.5
-			has_trait = trait_strong
-		}	
-		modifier = {
-			factor = 0.1
-			has_trait = trait_weak
-		}			
-		modifier = {
-			factor = 3
+			factor = 15
+			has_job = fern_refiner
 			OR = {
 				has_trait = trait_robust
 				has_trait = trait_robot_efficient_processors
 			}
-		}		
+		}
 		modifier = {
-			factor = 3
-			has_trait = trait_nerve_stapled
-		}			
+			factor = 2
+			has_trait = trait_void_dweller_1
+		}
 	}
 }
 
@@ -248,20 +213,28 @@ fern_refiner_drone = {
 		}
 		upkeep = {
 
-			energy = 5
-			food = 5
+			energy = 6
+			food = 8
 		}		
 	}	
 	
 	weight = {
 		weight = @complex_drone_job_weight
 		modifier = {
-			factor = 1.1
+			factor = 0.9
 			exists = owner
 			years_passed < 1
 			owner = { has_valid_civic = civic_machine_assimilator }
 			has_trait = trait_cybernetic
-		}			
+		}
+		modifier = {
+			factor = 5
+			has_job = fern_refiner_drone
+			OR = {
+				has_trait = trait_robust
+				has_trait = trait_robot_efficient_processors
+			}
+		}
 	}
 }
 
