@@ -214,7 +214,6 @@ the_network_site = {
 	}
 }
 
-
 #Sleepers
 sleepers_site = {
 	desc = sleepers_site_intro
@@ -326,9 +325,82 @@ doomcult_site = {
 	}
 }
 
+#Eternal Vigil
+sentinalvigil_site = {
+	desc = sentinalvigil_site_intro
+	picture = GFX_evt_giant_crater
+	stages = 6
+	max_instances = 1
+	allow = {
+		is_ship_class = shipclass_science_ship
+		exists = leader
+	}
+	visible = {
+		default_site_visible_trigger = yes
+	}
+	on_visible = {
+		country_event = { id = story.5 days = 30 }
+	}	
+	
+	weight = {
+		base = 60
+		modifier = {
+			factor = 0
+			NOT = {
+				habitable_planet = no
+			}
+		}
+	}
+	
+	stage = {
+		difficulty = 2
+		icon = GFX_archaeology_runes_D1
+		event = curio.160
+	}
+	stage = {
+		difficulty = 6
+		icon = GFX_archaeology_runes_D2
+		event = curio.161
+	}
+	stage = {
+		difficulty = 2
+		icon = GFX_archaeology_runes_D3
+		event = curio.162
+	}
+	stage = {
+		difficulty = 5
+		icon = GFX_archaeology_runes_D4
+		event = curio.163
+	}
+	stage = {
+		difficulty = 2
+		icon = GFX_archaeology_runes_D5
+		event = curio.164
+	}
+	stage = {
+		difficulty = 4
+		icon = GFX_archaeology_runes_D6
+		event = curio.165
+	}
+
+
+	on_roll_failed = {
+		from = {
+			standard_archaeological_site_on_roll_failed = { RANDOM_EVENTS = all_random_events }
+		}
+	}
+}
 
 #The Tower
 
 #Virtual Escape (Virus)
 
 #Men of Thunder
+
+#Seeping Void (black hole observatory)
+
+####################################
+#### Origin
+####################################
+
+#Forgotten Masters (devouring swarm)

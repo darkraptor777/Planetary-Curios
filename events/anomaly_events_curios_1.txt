@@ -850,6 +850,171 @@ fleet_event = {
 	}
 }
 
+
+#Sentinal site stage 1
+fleet_event = { 
+	id = curio.161
+	title = "curio.161.name"
+	desc = curio.161.desc
+	picture = GFX_evt_relic_world_street
+	show_sound = event_wind_ruins
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = CURIOUS
+	}
+}
+
+#Sentinal site stage 2
+fleet_event = { 
+	id = curio.162
+	title = "curio.162.name"
+	desc = curio.162.desc
+	picture = GFX_evt_relic_world_building
+	show_sound = event_wind_ruins
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = CURIOUS
+		small_artifact_reward = yes
+	}
+}
+
+#Sentinal site stage 3
+fleet_event = { 
+	id = curio.163
+	title = "curio.163.name"
+	desc = curio.163.desc
+	picture = GFX_evt_generator_powerup
+	show_sound = event_bad_omen
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+	
+	option = {
+		name = CURIOUS
+		small_artifact_reward = yes
+	}
+}
+
+#Sentinal site stage 4
+fleet_event = { 
+	id = curio.164
+	title = "curio.164.name"
+	desc = curio.164.desc
+	picture = GFX_evt_clones
+	show_sound = event_bad_omen
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = CURIOUS
+		medium_artifact_reward = yes
+	}
+}
+
+#Sentinal site stage 5
+fleet_event = { 
+	id = curio.165
+	title = "curio.165.name"
+	desc = curio.165.desc
+	picture = GFX_evt_clones
+	show_sound = event_finding_loot
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = EXCELLENT
+		medium_artifact_reward = yes
+	}
+}
+
+#Sentinal site stage 6
+fleet_event = { 
+	id = curio.166
+	title = "curio.166.name"
+	desc = curio.166.desc
+	picture = GFX_evt_clones
+	show_sound = event_finding_loot
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = EXCELLENT
+		medium_artifact_reward = yes
+		owner = {
+			add_relic = r_sentinal_guard
+		}
+	}
+}
+
 ####################################
 #### Anomalies
 ####################################

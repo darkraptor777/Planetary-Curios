@@ -6,6 +6,14 @@
  r_maw_egg:0 "Mawlurk Egg"
  r_maw_egg_desc:0 "A bio-engineered egg capable of hatching monstrous creatures. NOT FOR COOKING."
  
+ #relic_maw_spawn:0 "Breed a group of Mawlurk armies."
+ r_sentinal_guard:0 "Sentinal Guard"
+ r_sentinal_guard_desc:0 "A mechanical AI designed to manage defense logistics and strategies."
+ 
+ #relic_maw_spawn:0 "Breed a group of Mawlurk armies."
+ r_poly_ooze:0 "Poly-Ooze"
+ r_poly_ooze_desc:0 "A viscous liquid composed of a mixture of biological nano-machines."
+ 
  ##################
  # ARMIES
  ##################
