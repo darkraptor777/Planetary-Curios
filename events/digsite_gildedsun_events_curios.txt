@@ -1,0 +1,209 @@
+
+### Curios Events
+
+namespace = curio
+
+
+#Church of the Gilded Sun Stage 1
+fleet_event = { 
+	id = curio.111
+	title = "curio.111.name"
+	desc = curio.111.desc
+	picture = GFX_evt_theological_ruins
+	show_sound = event_wind_ruins
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+		solar_system = { set_star_flag = gilded_church }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = CURIOUS
+		small_artifact_reward = yes
+	}
+}
+
+#Church of the Gilded Sun Stage 2
+fleet_event = { 
+	id = curio.112
+	title = "curio.112.name"
+	desc = curio.112.desc
+	picture = GFX_evt_theological_ruins
+	show_sound = event_wind_ruins
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = CURIOUS
+		small_artifact_reward = yes
+	}
+}
+
+#Church of the Gilded Sun Stage 3
+fleet_event = { 
+	id = curio.113
+	title = "curio.113.name"
+	desc = curio.113.desc
+	picture = GFX_evt_theological_ruins
+	show_sound = event_wind_ruins
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = CURIOUS
+		small_artifact_reward = yes
+	}
+}
+
+#Church of the Gilded Sun Stage 4
+fleet_event = { 
+	id = curio.114
+	title = "curio.114.name"
+	desc = curio.114.desc
+	picture = GFX_evt_excavation_team
+	show_sound = event_finding_loot
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = CURIOUS
+		large_artifact_reward = yes
+		owner = {
+    		add_resource = {
+				society_research = 1000
+				influence = 100
+			}
+			set_country_flag = FOUND_GILDED_SUN
+					
+			if = {
+				limit = {
+					any_system_within_border = { has_star_flag = gilded_church }
+				}
+				random_system_within_border = {
+					limit = { has_star_flag = gilded_church }
+					spawn_system = {
+						min_distance = 20
+						max_distance = 40
+						max_jumps = 1
+						initializer = "Gilded_system"
+					}
+				}
+			}
+			else = {
+				random_system = {
+					limit = { has_star_flag = gilded_church }
+					spawn_system = {
+						min_distance = 20
+						max_distance = 40
+						max_jumps = 1
+						initializer = "Gilded_system"
+					}
+				}
+			}
+    	}
+	}
+}
+
+
+#Church of the Gilded Sun 2 Stage 1
+fleet_event = { 
+	id = curio.120
+	title = "curio.120.name"
+	desc = curio.120.desc
+	picture = GFX_evt_ancient_alien_temple
+	show_sound = event_wind_ruins
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+		solar_system = { set_star_flag = gilded_church }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = CURIOUS
+		medium_artifact_reward = yes
+	}
+}
+
+#Church of the Gilded Sun 2 Stage 2
+fleet_event = { 
+	id = curio.121
+	title = "curio.121.name"
+	desc = curio.121.desc
+	picture = GFX_evt_city_ruins
+	show_sound = event_wind_ruins
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = TRAGIC
+		medium_artifact_reward = yes
+		owner = {
+			add_resource = {
+				society_research = 1000
+			}
+			give_technology = { tech = tech_gilded_arks }
+		}
+	}
+}

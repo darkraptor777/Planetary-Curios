@@ -1,0 +1,58 @@
+
+### Curios Events
+
+namespace = curio
+
+####################################
+#### Relics
+####################################
+
+#Mawlurk Egg Activation
+country_event = {
+	id = curio.1
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		capital_scope = {
+			create_army = {
+				name = "Mawlurk Army"
+				owner = root
+				species = root
+				type = "mawlurk_army"
+			}
+			create_army = {
+				name = "Mawlurk Army"
+				owner = root
+				species = root
+				type = "mawlurk_army"
+			}
+			create_army = {
+				name = "Mawlurk Army"
+				owner = root
+				species = root
+				type = "mawlurk_army"
+			}
+			create_army = {
+				name = "Mawlurk Army"
+				owner = root
+				species = root
+				type = "mawlurk_army"
+			}
+			create_army = {
+				name = "Mawlurk Army"
+				owner = root
+				species = root
+				type = "mawlurk_army"
+			}
+			create_army = {
+				name = "Mawlurk Army"
+				owner = root
+				species = root
+				type = "mawlurk_army"
+			}
+		}
+	}
+}

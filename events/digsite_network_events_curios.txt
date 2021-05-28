@@ -1,0 +1,194 @@
+
+### Curios Events
+
+namespace = curio
+
+
+####################################
+#### Archaeological Sites
+####################################
+
+
+#The Network Stage 1
+fleet_event = { 
+	id = curio.130
+	title = "curio.130.name"
+	desc = curio.130.desc
+	picture = GFX_evt_discovered_hidden_door
+	show_sound = event_whispering
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = CURIOUS
+		small_artifact_reward = yes
+		leader = {
+			add_trait = leader_trait_paranoid
+		}
+	}
+}
+
+#The Network Stage 2
+fleet_event = { 
+	id = curio.131
+	title = "curio.131.name"
+	desc = curio.131.desc
+	picture = GFX_evt_tech_ruins
+	show_sound = event_big_door_opening
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = I_SEE
+		small_artifact_reward = yes
+	}
+}
+
+#The Network Stage 3
+fleet_event = { 
+	id = curio.132
+	title = "curio.132.name"
+	desc = curio.132.desc
+	picture = GFX_evt_tech_ruins
+	show_sound = event_machinery
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = CURIOUS
+		medium_artifact_reward = yes
+	}
+}
+
+#The Network Stage 4
+fleet_event = { 
+	id = curio.133
+	title = "curio.133.name"
+	desc = curio.133.desc
+	picture = GFX_evt_tech_ruins
+	show_sound = event_bad_omen
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = CURIOUS
+		medium_artifact_reward = yes
+		owner = {
+			add_resource = {
+				physics_research = 200
+			}
+		}
+	}
+}
+
+#The Network Stage 5
+fleet_event = { 
+	id = curio.134
+	title = "curio.134.name"
+	desc = curio.134.desc
+	picture = GFX_scanning_remains
+	show_sound = event_bad_omen
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = TROUBLING
+		small_artifact_reward = yes
+		owner = {
+			add_resource = {
+				engineering_research = 300
+			}
+		}
+	}
+}
+
+#The Network Stage 6
+fleet_event = { 
+	id = curio.135
+	title = "curio.135.name"
+	desc = curio.135.desc
+	picture = GFX_evt_discovered_hidden_door
+	show_sound = event_bad_omen
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = I_SEE
+		large_artifact_reward = yes
+		owner = {
+			add_resource = {
+				physics_research = 1000
+			}
+		}
+		leader = {
+			kill_leader = { show_notification = yes }
+		}
+	}
+}
+
