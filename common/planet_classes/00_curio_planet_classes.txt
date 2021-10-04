@@ -46,7 +46,8 @@ pc_gilded_star = {
 	entity = "gilded_star_entity"
 	entity_scale = 20.0
 	picture = "pc_gilded_star"
-	icon_frame = 31
+	#icon_frame = 31
+	icon = GFX_planet_type_gilded_star
 
 	atmosphere_color 		= hsv { 0.35 1.0 0.9 }
 	atmosphere_intensity 	= 1.0

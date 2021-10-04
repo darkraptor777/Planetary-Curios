@@ -154,8 +154,9 @@ fern_refiner = {
 
 		}
 		upkeep = {
-			energy = 6
-			food = 8
+			energy = 4
+			food = 6
+			exotic_gases = 1
 		}		
 	}
 	
@@ -213,8 +214,9 @@ fern_refiner_drone = {
 		}
 		upkeep = {
 
-			energy = 6
-			food = 8
+			energy = 4
+			food = 6
+			exotic_gases = 1
 		}		
 	}	
 	

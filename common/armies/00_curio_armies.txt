@@ -7,7 +7,7 @@ mawlurk_army = {
 	collateral_damage = 5.0
 	war_exhaustion = 5.0
 	time = 5
-	icon_frame = 8
+	icon = GFX_army_type_xenomorph
 	has_species = no
 
 	resources = {
@@ -32,7 +32,7 @@ bioweapons_army = {
 	collateral_damage = 2.0
 	war_exhaustion = 5.0
 	time = 150
-	icon_frame = 5
+	icon = GFX_army_type_primitive
 	has_species = no
 
 	resources = {
@@ -74,7 +74,7 @@ bioweapons_army_mech = {
 	collateral_damage = 2.0
 	war_exhaustion = 5.0
 	time = 150
-	icon_frame = 5
+	icon = GFX_army_type_primitive
 	has_species = no
 
 	resources = {

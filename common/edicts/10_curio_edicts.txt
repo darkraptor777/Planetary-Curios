@@ -20,6 +20,12 @@ diplomacy_ferns = {
 			luminescent_ferns = 50
 		}
 	}
+	potential = {
+		OR = {
+			has_technology = tech_harvest_luminescent_ferns
+			has_technology = tech_refine_luminescent_ferns
+		}
+	}
 
 	modifier = {
 		country_trust_cap_add = 25
@@ -41,6 +47,13 @@ happy_ferns = {
 			luminescent_ferns = 25
 		}
 	}
+	
+	potential = {
+		OR = {
+			has_technology = tech_harvest_luminescent_ferns
+			has_technology = tech_refine_luminescent_ferns
+		}
+	}
 
 	modifier = {
 		biological_pop_happiness = 0.1 
@@ -60,6 +73,13 @@ flare_ferns = {
 		category = ship_edicts
 		cost = {
 			luminescent_ferns = 50
+		}
+	}
+
+	potential = {
+		OR = {
+			has_technology = tech_harvest_luminescent_ferns
+			has_technology = tech_refine_luminescent_ferns
 		}
 	}
 

@@ -3,7 +3,7 @@
 @low_rare = 0.1
 
 d_crystal_growth_deposit = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 	
 	icon = d_crystal_growth_deposit
@@ -52,7 +52,7 @@ d_crystal_growth_deposit = {
 }
 
 d_deep_ocean_station = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 	
 	icon = d_ruined_station
@@ -99,7 +99,7 @@ d_deep_ocean_station = {
 }
 
 d_infestation = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 	
 	icon = d_infestation
@@ -137,7 +137,7 @@ d_infestation = {
 }
 
 d_great_canyon = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 	
 	icon = d_grand_canyon
@@ -183,7 +183,7 @@ d_great_canyon = {
 
 
 d_gilded_monument = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 	
 	icon = d_gilded_monument
@@ -245,7 +245,7 @@ d_gilded_monument = {
 }
 
 d_great_vortex = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 	
 	icon = d_great_vortex
@@ -281,7 +281,7 @@ d_great_vortex = {
 }
 
 d_mineral_shore = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 	
 	icon = d_mineral_shore
@@ -319,7 +319,7 @@ d_mineral_shore = {
 
 
 d_plasma_vent = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 	
 	icon = d_underwater_vent
@@ -369,7 +369,7 @@ d_plasma_vent = {
 }
 
 d_ammonia_lake = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 	
 	icon = d_ammonia_lake
@@ -406,7 +406,7 @@ d_ammonia_lake = {
 }
 
 d_psionic_region = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 	
 	icon = d_psionic_region
@@ -449,7 +449,7 @@ d_psionic_region = {
 ###################
 
 d_luminescent_ferns_deposit = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 	icon = d_luminescent_ferns
 	
@@ -481,7 +481,7 @@ d_luminescent_ferns_deposit = {
 }
 
 d_luminescent_ferns_tree_deposit = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 	icon = d_luminescent_ferns_tree
 	

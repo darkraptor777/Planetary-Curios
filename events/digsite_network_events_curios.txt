@@ -130,7 +130,7 @@ fleet_event = {
 	id = curio.134
 	title = "curio.134.name"
 	desc = curio.134.desc
-	picture = GFX_scanning_remains
+	picture = GFX_evt_scanning_remains
 	show_sound = event_bad_omen
 	location = from
 
