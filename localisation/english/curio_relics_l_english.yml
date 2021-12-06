@@ -15,6 +15,14 @@
  r_poly_ooze_desc:0 "A viscous liquid composed of a mixture of biological nano-machines."
  
  ##################
+ # MODIFIERS
+ ##################
+ sentinal_guard:0 "Guarded Vigilance"
+ sentinal_guard_desc:0 "With the sentinal guard's oversight our defensive capabilities have increased."
+ poly_ooze:0 "Poly Ooze"
+ poly_ooze_desc:0 "We can mold the populace to our will."
+ 
+ ##################
  # ARMIES
  ##################
  mawlurk_army:0 "Mawlurk Army"

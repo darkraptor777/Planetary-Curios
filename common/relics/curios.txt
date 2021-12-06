@@ -53,7 +53,7 @@ r_maw_egg = {
 r_sentinal_guard = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_relic_sentinal_guard"
-	sound = "sfx_relic_activation_javorian_pox_sample"
+	sound = "sfx_relic_activation_cybrex_war_forge"
 
 	resources = {
 		category = relics
@@ -102,7 +102,7 @@ r_sentinal_guard = {
 r_poly_ooze = {
 	activation_duration = @triumph_duration
 	portrait = "GFX_relic_poly_ooze"
-	sound = "sfx_relic_activation_javorian_pox_sample"
+	sound = "sfx_relic_activation_scales_of_the_worm"
 
 	resources = {
 		category = relics
@@ -120,14 +120,16 @@ r_poly_ooze = {
 		potential = {
 			always = yes
 		}
-		army_damage_mult = 0.15
-		army_collateral_damage_mult = 0.15
+		pop_happiness = 0.05
 	}
 
 	score = 200
 
 	active_effect = {
-		custom_tooltip = relic_maw_spawn
+		add_modifier = {
+			modifier = "poly_ooze"
+			days = @triumph_duration
+		}
 		custom_tooltip = relic_triumph_cooldown
 		hidden_effect = {
 			add_modifier = {

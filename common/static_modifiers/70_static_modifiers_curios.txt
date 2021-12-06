@@ -12,6 +12,22 @@ luminescent_ferns_deficit = {
 }
 
 ##########################################################################
+### EMPIRE MODIFIERS
+##########################################################################
+
+sentinal_guard = {
+	starbase_upgrade_cost_mult = -0.25
+	starbase_upgrade_speed_mult = 0.33
+	shipclass_starbase_damage_mult = 0.20
+	shipclass_military_station_damage_mult = 0.20
+	shipclass_starbase_hull_mult = 0.20
+	shipclass_military_station_hull_mult = 0.20
+}
+
+poly_ooze = {
+	modify_species_cost_mult = -0.50
+}
+##########################################################################
 #### Generated Planet Modifiers
 ##########################################################################
 

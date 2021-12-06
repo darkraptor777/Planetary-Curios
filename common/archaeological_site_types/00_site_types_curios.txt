@@ -355,32 +355,32 @@ sentinalvigil_site = {
 	stage = {
 		difficulty = 2
 		icon = GFX_archaeology_runes_D1
-		event = curio.160
+		event = curio.161
 	}
 	stage = {
 		difficulty = 6
 		icon = GFX_archaeology_runes_D2
-		event = curio.161
-	}
-	stage = {
-		difficulty = 2
-		icon = GFX_archaeology_runes_D3
 		event = curio.162
 	}
 	stage = {
 		difficulty = 5
-		icon = GFX_archaeology_runes_D4
+		icon = GFX_archaeology_runes_D3
 		event = curio.163
+	}
+	stage = {
+		difficulty = 4
+		icon = GFX_archaeology_runes_D4
+		event = curio.164
 	}
 	stage = {
 		difficulty = 2
 		icon = GFX_archaeology_runes_D5
-		event = curio.164
+		event = curio.165
 	}
 	stage = {
 		difficulty = 4
 		icon = GFX_archaeology_runes_D6
-		event = curio.165
+		event = curio.166
 	}
 
 
