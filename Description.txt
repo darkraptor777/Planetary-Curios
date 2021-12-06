@@ -9,7 +9,7 @@ Compatible with most mods.
 [h1]What does this mod do?[/h1]
 [list]
 [*]5 Brand new dig site chains!
-[*]A new relic!
+[*]2 new relics!
 [*]A new system with a unique stellar body! 
 [*]A new strategic resource!
 [*]New planetary modifiers with unique icons!

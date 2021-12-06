@@ -65,7 +65,7 @@ fleet_event = {
 	id = curio.163
 	title = "curio.163.name"
 	desc = curio.163.desc
-	picture = GFX_evt_generator_powerup
+	picture = GFX_evt_relic_world_building
 	show_sound = event_bad_omen
 	location = from
 
@@ -92,7 +92,7 @@ fleet_event = {
 	id = curio.164
 	title = "curio.164.name"
 	desc = curio.164.desc
-	picture = GFX_evt_clones
+	picture = GFX_evt_generator_powerup
 	show_sound = event_bad_omen
 	location = from
 
@@ -119,7 +119,7 @@ fleet_event = {
 	id = curio.165
 	title = "curio.165.name"
 	desc = curio.165.desc
-	picture = GFX_evt_clones
+	picture = GFX_evt_sentry_guns
 	show_sound = event_finding_loot
 	location = from
 
@@ -146,7 +146,7 @@ fleet_event = {
 	id = curio.166
 	title = "curio.166.name"
 	desc = curio.166.desc
-	picture = GFX_evt_clones
+	picture = GFX_evt_ancient_databank
 	show_sound = event_finding_loot
 	location = from
 
