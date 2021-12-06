@@ -52,6 +52,8 @@
  d_ammonia_lake_desc:0 "A lake of slightly diluted ammonia."
  d_psionic_region:0 "Purple Veil"
  d_psionic_region_desc:0 "A region which augments individuals with psyionic powers."
+ d_overflowing_waterfall:0 "Overflowing Waterfall"
+ d_overflowing_waterfall_desc:0 "An abnormally large and visually striking waterfall."
  
  d_luminescent_ferns_deposit:0 "Glowing Groves"
  d_luminescent_ferns_deposit_desc:0 "A secluded region filled with highly bioluminescent plants."

@@ -391,6 +391,8 @@ sentinalvigil_site = {
 	}
 }
 
+#Poly Ooze
+
 #The Tower
 
 #Virtual Escape (Virus)
