@@ -506,7 +506,7 @@ d_luminescent_ferns_deposit = {
 	}
 	
 	drop_weight = {
-		weight = @mid_rare
+		weight = @high_rare
 		modifier = {
 			factor = 2
 			is_planet_class = pc_gaia

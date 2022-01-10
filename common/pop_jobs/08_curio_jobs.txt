@@ -111,12 +111,7 @@ fern_harvesting_drone = {
 	}
 
 	possible_precalc = can_fill_drone_job
-	possible = {
-		hidden_trigger = { exists = owner }
-		owner = {
-			is_gestalt = no
-		}
-	}
+	
 
 	resources = {
 		category = planet_jobs
