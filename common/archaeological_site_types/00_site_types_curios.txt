@@ -346,9 +346,7 @@ sentinalvigil_site = {
 		base = 60
 		modifier = {
 			factor = 0
-			NOT = {
-				habitable_planet = no
-			}
+			habitable_planet = no
 		}
 	}
 	
@@ -391,6 +389,55 @@ sentinalvigil_site = {
 	}
 }
 
+#Slingshot
+slingshot_site = {
+	desc = slingshot_site_intro
+	picture = GFX_evt_arctic_planet
+	stages = 2
+	max_instances = 1
+	allow = {
+		is_ship_class = shipclass_science_ship
+		exists = leader
+	}
+	visible = {
+		default_site_visible_trigger = yes
+	}
+	on_visible = {
+		country_event = { id = story.5 days = 30 }
+	}	
+	
+	weight = {
+		base = 60
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					is_planet_class = pc_arctic
+					is_planet_class = pc_tundra
+					is_planet_class = pc_alpine
+				}
+			}
+		}
+	}
+	
+
+	stage = {
+		difficulty = 2
+		icon = GFX_archaeology_runes_A1
+		event = curio.170
+	}
+	stage = {
+		difficulty = 4
+		icon = GFX_archaeology_runes_A2
+		event = curio.171
+	}
+
+	on_roll_failed = {
+		from = {
+			standard_archaeological_site_on_roll_failed = { RANDOM_EVENTS = all_random_events }
+		}
+	}
+}
 #Poly Ooze
 
 #The Tower

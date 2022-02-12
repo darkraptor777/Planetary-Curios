@@ -1,37 +1,5 @@
 spriteTypes = {	
 	spriteType = {
-		name = "GFX_evt_theological_ruins"
-		texturefile = "gfx/event_pictures/theological_ruins.dds"
-		masking_texture = "gfx/interface/situation_log/event_mask.dds"
-		alwaystransparent = yes		
-	}
-}
-spriteTypes = {	
-	spriteType = {
-		name = "GFX_evt_desert_ruins"
-		texturefile = "gfx/event_pictures/desert_ruins.dds"
-		masking_texture = "gfx/interface/situation_log/event_mask.dds"
-		alwaystransparent = yes		
-	}
-}
-spriteTypes = {	
-	spriteType = {
-		name = "GFX_evt_tech_ruins"
-		texturefile = "gfx/event_pictures/tech_ruins.dds"
-		masking_texture = "gfx/interface/situation_log/event_mask.dds"
-		alwaystransparent = yes		
-	}
-}
-spriteTypes = {	
-	spriteType = {
-		name = "GFX_evt_mountain_ring"
-		texturefile = "gfx/event_pictures/mountain_ring.dds"
-		masking_texture = "gfx/interface/situation_log/event_mask.dds"
-		alwaystransparent = yes		
-	}
-}
-spriteTypes = {	
-	spriteType = {
 		name = "GFX_evt_asteroid_ring"
 		texturefile = "gfx/event_pictures/asteroid_ring.dds"
 		masking_texture = "gfx/interface/situation_log/event_mask.dds"
@@ -50,6 +18,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_evt_desert_arch"
 		texturefile = "gfx/event_pictures/desert_arch.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes		
+	}
+}
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evt_desert_ruins"
+		texturefile = "gfx/event_pictures/desert_ruins.dds"
 		masking_texture = "gfx/interface/situation_log/event_mask.dds"
 		alwaystransparent = yes		
 	}
@@ -88,6 +64,14 @@ spriteTypes = {
 }
 spriteTypes = {	
 	spriteType = {
+		name = "GFX_evt_mountain_ring"
+		texturefile = "gfx/event_pictures/mountain_ring.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes		
+	}
+}
+spriteTypes = {	
+	spriteType = {
 		name = "GFX_evt_nebula_eye"
 		texturefile = "gfx/event_pictures/nebula_eye.dds"
 		masking_texture = "gfx/interface/situation_log/event_mask.dds"
@@ -96,8 +80,24 @@ spriteTypes = {
 }
 spriteTypes = {	
 	spriteType = {
+		name = "GFX_evt_necroid_ruins"
+		texturefile = "gfx/event_pictures/necroid_ruins.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes		
+	}
+}
+spriteTypes = {	
+	spriteType = {
 		name = "GFX_evt_new_colony"
 		texturefile = "gfx/event_pictures/new_colony.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes		
+	}
+}
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evt_parched_remains"
+		texturefile = "gfx/event_pictures/parched_remains.dds"
 		masking_texture = "gfx/interface/situation_log/event_mask.dds"
 		alwaystransparent = yes		
 	}
@@ -162,6 +162,46 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_evt_spacebattle_debris"
 		texturefile = "gfx/event_pictures/spacebattle_debris.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes		
+	}
+}
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evt_spacebattle_debris"
+		texturefile = "gfx/event_pictures/spacebattle_debris.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes		
+	}
+}
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evt_storm_wracked_ruins"
+		texturefile = "gfx/event_pictures/storm_wracked_ruins.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes		
+	}
+}
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evt_stormfront"
+		texturefile = "gfx/event_pictures/stormfront.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes		
+	}
+}
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evt_tech_ruins"
+		texturefile = "gfx/event_pictures/tech_ruins.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes		
+	}
+}
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_evt_theological_ruins"
+		texturefile = "gfx/event_pictures/theological_ruins.dds"
 		masking_texture = "gfx/interface/situation_log/event_mask.dds"
 		alwaystransparent = yes		
 	}

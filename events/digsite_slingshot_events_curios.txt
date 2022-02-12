@@ -1,0 +1,79 @@
+
+### Curios Events
+
+namespace = curio
+
+####################################
+#### Archaeological Sites
+####################################
+
+
+
+#Slingshot Stage 1
+fleet_event = { 
+	id = curio.170
+	title = "curio.170.name"
+	desc = curio.170.desc
+	picture = GFX_evt_death_from_above
+	show_sound = event_metal_fatigue
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = CURIOUS
+		owner = {
+			add_resource = {
+				alloys = 100
+				rare_crystals = 100
+				minerals = 500
+			}
+			small_artifact_reward = yes
+		}
+		
+	}
+}
+
+#Slingshot Stage 2
+fleet_event = { 
+	id = curio.171
+	title = "curio.171.name"
+	desc = curio.171.desc
+	picture = GFX_evt_asteroid_ring
+	show_sound = event_metal_fatigue
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = WORRYING
+		owner = {
+			add_monthly_resource_mult = {
+				resource = society_research
+				value = @tier4researchreward
+				min = @tier4researchmin
+				max = @tier4researchmax
+			}
+		}
+	}
+}

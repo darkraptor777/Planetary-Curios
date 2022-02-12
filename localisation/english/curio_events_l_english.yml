@@ -262,6 +262,15 @@
  curio.166.name:0 "The Sentinal"
  curio.166.desc:0 "A large number of military and civillian intelligence documents have been stored within the bunker. The most interesting ones detail plans to make the innermost ring self sustainable, allowing them to survive without the outer layers. Part of this initiavtive was §HThe Sentinal§! a semi-autonomous AI tasked with the sole purpose of protecting the citadel's people. However it reportedly suffered from misalignment, and turned its weaponry on the inner sanctum in an effort to protect the outer layers. [Root.GetLeaderName] reassure's us that the now barely functional machine can be repaired and brought under control with relative ease."
  
+ slingshot_site:0 "Rocky Clouds"
+ slingshot_site_intro:0 "Predictive models indicate that [From.Planet.GetName]'s climate is anomalous with scans showing a significant amount of silicate in its atmosphere."
+ curio.171.name:0 "Calamitous Impact"
+ curio.171.desc:0 "As suspected, [From.Planet.GetName]'s perpetual winter is unnatural. Planetary ruins and biosphere fossils indicate that [From.Planet.GetName] originally had a much more tropical climate. [Root.GetLeaderName] has concluded the reason for this and the tremendous amounts of atmospheric silicate is quite simple, a giant asteroid collided with [From.Planet.GetName]. As much as 16% of the planet's surface was vaporised just in the initial impact. Vast amounts of debris was launched into the atmosphere, only to rain back down across the planet. This process superheated the atmosphere, leading to widespread wildfires all over the planet. The large amounts of vaporised material combined with the soot from the burning planet blotted out all sunlight, plunging [From.Planet.GetName] into darkness and a perpetual winter."
+ curio.172.name:0 "Brutal Simplicity"
+ curio.172.desc:0 "Compositional analysis performed by the archeological team indicate that the asteroid which collided with [From.Planet.GetName] originated from outside the solar system. The odds of such a collision are astronomically low. Recent discoveries from the planet's civilised ruins indicate that it's populace had, in the months before the impact, started broadcasting their prescence in an effort to find alien life. This ominous timing gives rise to a rather chilling possibility. Either the inhabitants of [From.Planet.GetName] experienced the worst luck of their existance or, unbeknownst to them, someone heard their broadcasts and saw fit to silence them. Slingshotting an asteroid into their planet and annihilating their civilisation. Whoever the culprit was, or if there even was one, will forever remain a mystery."
+
+ 
+ 
  thunder_site:0 "Men of Thunder"
  ####################################
  # Event Responses
