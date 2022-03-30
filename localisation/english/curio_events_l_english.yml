@@ -264,18 +264,26 @@
  
  slingshot_site:0 "Rocky Clouds"
  slingshot_site_intro:0 "Predictive models indicate that [From.Planet.GetName]'s climate is anomalous with scans showing a significant amount of silicate in its atmosphere."
- curio.171.name:0 "Calamitous Impact"
- curio.171.desc:0 "As suspected, [From.Planet.GetName]'s perpetual winter is unnatural. Planetary ruins and biosphere fossils indicate that [From.Planet.GetName] originally had a much more tropical climate. [Root.GetLeaderName] has concluded the reason for this and the tremendous amounts of atmospheric silicate is quite simple, a giant asteroid collided with [From.Planet.GetName]. As much as 16% of the planet's surface was vaporised just in the initial impact. Vast amounts of debris was launched into the atmosphere, only to rain back down across the planet. This process superheated the atmosphere, leading to widespread wildfires all over the planet. The large amounts of vaporised material combined with the soot from the burning planet blotted out all sunlight, plunging [From.Planet.GetName] into darkness and a perpetual winter."
- curio.172.name:0 "Brutal Simplicity"
- curio.172.desc:0 "Compositional analysis performed by the archeological team indicate that the asteroid which collided with [From.Planet.GetName] originated from outside the solar system. The odds of such a collision are astronomically low. Recent discoveries from the planet's civilised ruins indicate that it's populace had, in the months before the impact, started broadcasting their prescence in an effort to find alien life. This ominous timing gives rise to a rather chilling possibility. Either the inhabitants of [From.Planet.GetName] experienced the worst luck of their existance or, unbeknownst to them, someone heard their broadcasts and saw fit to silence them. Slingshotting an asteroid into their planet and annihilating their civilisation. Whoever the culprit was, or if there even was one, will forever remain a mystery."
+ curio.170.name:0 "Calamitous Impact"
+ curio.170.desc:0 "As suspected, [From.Planet.GetName]'s perpetual winter is unnatural. Planetary ruins and biosphere fossils indicate that [From.Planet.GetName] originally had a much more tropical climate. [Root.GetLeaderName] has concluded the reason for this and the tremendous amounts of atmospheric silicate is quite simple, a giant asteroid collided with [From.Planet.GetName]. As much as 16% of the planet's surface was vaporised just in the initial impact. Vast amounts of debris was launched into the atmosphere, only to rain back down across the planet. This process superheated the atmosphere, leading to widespread wildfires all over the planet. The large amounts of vaporised material combined with the soot from the burning planet blotted out all sunlight, plunging [From.Planet.GetName] into darkness and a perpetual winter."
+ curio.171.name:0 "Brutal Simplicity"
+ curio.171.desc:0 "Compositional analysis performed by the archeological team indicate that the asteroid which collided with [From.Planet.GetName] originated from outside the solar system. The odds of such a collision are astronomically low. Recent discoveries from the planet's civilised ruins indicate that it's populace had, in the months before the impact, started broadcasting their prescence in an effort to find alien life. This ominous timing gives rise to a rather chilling possibility. Either the inhabitants of [From.Planet.GetName] experienced the worst luck of their existance or, unbeknownst to them, someone heard their broadcasts and saw fit to silence them. Slingshotting an asteroid into their planet and annihilating their civilisation. Whoever the culprit was, or if there even was one, will forever remain a mystery."
 
+ menofthunder_site:0 "Unnatural Glint"
+ menofthunder_intro:0 "Large sections of planet's surface appear to have been glassed, although there are some indications of a prior civilization existing here."
+ curio.180.name:0 "Unnatural Glint"
+ curio.180.desc:0 "Our scientists have confirmed that, as suspected, the glass coating the surface of [From.Planet.GetName] is artificial and likely the result of the surface being superheated. What few ruins remain indicate that the native civilization had not yet achieved space flight and lacked the necessary technology to heat large areas to high enough tempratures to achieve such a pronounced effect. [Root.GetLeaderName] believes the native civilisation succumbed to an external threat, and is focusing the team's efforts to uncover the nature of this threat."
+ curio.181.name:0 "Concentrated Storm"
+ curio.181.desc:0 "Another oddity has caught the attention of our scientists. [From.Planet.GetName]'s climate has been relatively stormy, however a particular cluster of clouds has remained unmoving above what was deemed a relatively minor structure. Upon closer inspection however the structure appears to be some kind of monument, filled with dozens of statues dressed in military uniforms. The statues surround a central pillar upon which is some kind of inscription. The team is currently hard at work attempting to decypher its meaning."
+ curio.182.name:0 "Men of Thunder"
+ curio.182.desc:0 "We have successfully translated the insciption. "May this shrine appease those who descended from the heavens, those §HMen of Thunder§!. Our sins so great lighting poured forth from clear skies to burn away impurities, our sin so profound that we were ignorant of our transgressions. May those §HMen of Thunder§! one day return and forgive our mistakes." It would seem the silence of [From.Planet.GetName]'s desolate landscape speaks volumes of their return. As for the reason for the planetary extermination, we can only guess."
  
- 
- thunder_site:0 "Men of Thunder"
  ####################################
  # Event Responses
  ####################################
  TRAGIC:0 "Tragic."
+ OMINOUS:0 "Ominous."
  I_SEE:0 "I See."
  TROUBLING:0 "Troubling."
  UNFORTUNATE:0 "Unfortunate."
+ Bring it online:0 "Bring it online."

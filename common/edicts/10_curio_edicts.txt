@@ -16,8 +16,9 @@ diplomacy_ferns = {
 	length = @EdictDuration
 	resources = {
 		category = rare_edicts
-		cost = {
-			luminescent_ferns = 50
+		upkeep = {
+			luminescent_ferns = 0.5
+			multiplier = value:edict_size_effect
 		}
 	}
 	potential = {
@@ -43,8 +44,9 @@ happy_ferns = {
 	length = @EdictDuration
 	resources = {
 		category = rare_edicts
-		cost = {
-			luminescent_ferns = 25
+		upkeep = {
+			luminescent_ferns = 1.5
+			multiplier = value:edict_size_effect
 		}
 	}
 	
@@ -56,7 +58,7 @@ happy_ferns = {
 	}
 
 	modifier = {
-		biological_pop_happiness = 0.1 
+		biological_pop_happiness = 0.05 
 	}
 	
 	ai_weight = {
@@ -71,8 +73,9 @@ flare_ferns = {
 	length = @EdictDuration
 	resources = {
 		category = ship_edicts
-		cost = {
-			luminescent_ferns = 50
+		upkeep = {
+			luminescent_ferns = 1.0
+			multiplier = value:edict_size_effect
 		}
 	}
 
@@ -84,7 +87,7 @@ flare_ferns = {
 	}
 
 	modifier = {
-		ship_disengage_chance_mult = 0.25
+		ship_disengage_chance_mult = 0.10
 	}
 	
 	ai_weight = {
@@ -101,8 +104,9 @@ gas_ferns = {
 	length = @EdictDuration
 	resources = {
 		category = ship_edicts
-		cost = {
-			luminescent_ferns = 500
+		upkeep = {
+			luminescent_ferns = 1.0
+			multiplier = value:edict_size_effect
 		}
 	}
 	

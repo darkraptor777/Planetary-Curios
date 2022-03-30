@@ -1,0 +1,154 @@
+
+### Curios Events
+
+namespace = curio
+
+####################################
+#### Archaeological Sites
+####################################
+
+#Men of Thunder Stage 1
+fleet_event = { 
+	id = curio.180
+	title = "curio.180.name"
+	desc = curio.180.desc
+	picture = GFX_evt_stormfront
+	show_sound = event_wind_ruins
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = CURIOUS
+		owner = {
+			small_artifact_reward = yes
+		}
+	}
+}
+
+#Men of Thunder Stage 2
+fleet_event = { 
+	id = curio.181
+	title = "curio.181.name"
+	desc = curio.181.desc
+	picture = GFX_evt_storm_wracked_ruins
+	show_sound = event_wind_ruins
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = CURIOUS
+		owner = {
+			small_artifact_reward = yes
+		}
+	}
+}
+
+
+#Men of Thunder Stage 3
+fleet_event = { 
+	id = curio.182
+	title = "curio.182.name"
+	desc = curio.182.desc
+	picture = GFX_evt_storm_wracked_ruins
+	show_sound = event_screams
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+
+	option = {
+		name = OMINOUS
+		owner = {
+			if = {
+				limit = { is_machine_empire = no }
+				if = {
+					limit = {
+						has_tech_option = tech_combat_training
+					}
+					add_tech_progress = {
+						tech = tech_combat_training
+						progress = 0.5
+					}
+				}
+				else_if = {
+					limit = {
+						NOT = { has_technology = tech_combat_training }
+					}
+					add_research_option = tech_combat_training
+					add_tech_progress = {
+						tech = tech_combat_training
+						progress = 0.1
+					}
+				}
+				else = {
+					add_monthly_resource_mult = {
+						resource = society_research
+						value = @tier3researchreward
+						min = @tier3researchmin
+						max = @tier3researchmax
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						has_tech_option = tech_combat_training_machine_intelligence
+					}
+					add_tech_progress = {
+						tech = tech_combat_training_machine_intelligence
+						progress = 0.5
+					}
+				}
+				else_if = {
+					limit = {
+						NOT = { has_technology = tech_combat_training_machine_intelligence }
+					}
+					add_research_option = tech_combat_training_machine_intelligence
+					add_tech_progress = {
+						tech = tech_combat_training_machine_intelligence
+						progress = 0.1
+					}
+				}
+				else = {
+					add_monthly_resource_mult = {
+						resource = society_research
+						value = @tier3researchreward
+						min = @tier3researchmin
+						max = @tier3researchmax
+					}
+				}
+			}
+		}
+	}
+}
