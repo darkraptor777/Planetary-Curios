@@ -1,14 +1,14 @@
 [img]https://i.imgur.com/zZsBis2.png[/img]
 
 [h1]Planetary Curios[/h1]
-For version 3.2+ of the game. 
+For version 3.4+ of the game. 
 Compatible with all DLC. DLCs not required.
 Compatible with most mods.
 
 [img]https://i.imgur.com/RF9zfDA.png[/img]
 [h1]What does this mod do?[/h1]
 [list]
-[*]5 Brand new dig site chains!
+[*]8 Brand new dig site chains!
 [*]2 new relics!
 [*]A new system with a unique stellar body! 
 [*]A new strategic resource!
@@ -33,7 +33,7 @@ This mod adds a new strategic resource, luminescent ferns, to the game. Like oth
 
 
 [h1]Compatibility[/h1]
-This mod is now supported by (and requires) the Universal Resources Patch.
+This mod is now supported by (and requires) the Universal Resources Patch. There are currently no known conflicts with other mods.
 
 
 [h1]Localisations[/h1]

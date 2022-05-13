@@ -9,6 +9,6 @@ tags={
 	"Edicts"
 }
 picture="PCurios_Icon.png"
-supported_version="3.3.*"
+supported_version="3.4.*"
 path="C:/Users/lukea/Documents/Paradox Interactive/Stellaris/mod/planetarycurios"
 remote_file_id="1867143071"

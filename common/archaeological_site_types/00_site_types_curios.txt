@@ -392,7 +392,7 @@ sentinalvigil_site = {
 #Slingshot
 slingshot_site = {
 	desc = slingshot_site_intro
-	picture = GFX_evt_arctic_planet
+	picture = GFX_evt_arctic
 	stages = 2
 	max_instances = 1
 	allow = {
@@ -439,9 +439,9 @@ slingshot_site = {
 	}
 }
 #Men of Thunder
-MenOfThunder_site = {
+menofthunder_site = {
 	desc = menofthunder_site_intro
-	picture = GFX_evt_cold_barren_planet
+	picture = GFX_evt_cold_barren
 	stages = 3
 	max_instances = 1
 	allow = {

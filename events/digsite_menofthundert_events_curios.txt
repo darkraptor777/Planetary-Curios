@@ -123,21 +123,21 @@ fleet_event = {
 			else = {
 				if = {
 					limit = {
-						has_tech_option = tech_combat_training_machine_intelligence
+						has_tech_option = tech_adaptive_combat_algorithms
 					}
 					add_tech_progress = {
-						tech = tech_combat_training_machine_intelligence
+						tech = tech_adaptive_combat_algorithms
 						progress = 0.5
 					}
 				}
 				else_if = {
 					limit = {
-						NOT = { has_technology = tech_combat_training_machine_intelligence }
+						NOT = { has_technology = tech_adaptive_combat_algorithms }
 					}
-					add_research_option = tech_combat_training_machine_intelligence
+					add_research_option = tech_adaptive_combat_algorithms
 					add_tech_progress = {
-						tech = tech_combat_training_machine_intelligence
-						progress = 0.1
+						tech = tech_adaptive_combat_algorithms
+						progress = 0.33
 					}
 				}
 				else = {

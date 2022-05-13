@@ -163,7 +163,7 @@ fleet_event = {
 	}
 
 	option = {
-		name = "Bring it online."
+		name = BRING_IT_ONLINE
 		medium_artifact_reward = yes
 		owner = {
 			add_relic = r_sentinal_guard

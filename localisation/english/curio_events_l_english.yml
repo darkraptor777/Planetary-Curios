@@ -270,7 +270,7 @@
  curio.171.desc:0 "Compositional analysis performed by the archeological team indicate that the asteroid which collided with [From.Planet.GetName] originated from outside the solar system. The odds of such a collision are astronomically low. Recent discoveries from the planet's civilised ruins indicate that it's populace had, in the months before the impact, started broadcasting their prescence in an effort to find alien life. This ominous timing gives rise to a rather chilling possibility. Either the inhabitants of [From.Planet.GetName] experienced the worst luck of their existance or, unbeknownst to them, someone heard their broadcasts and saw fit to silence them. Slingshotting an asteroid into their planet and annihilating their civilisation. Whoever the culprit was, or if there even was one, will forever remain a mystery."
 
  menofthunder_site:0 "Unnatural Glint"
- menofthunder_intro:0 "Large sections of planet's surface appear to have been glassed, although there are some indications of a prior civilization existing here."
+ menofthunder_site_intro:0 "Large sections of planet's surface appear to have been glassed, although there are some indications of a prior civilization existing here."
  curio.180.name:0 "Unnatural Glint"
  curio.180.desc:0 "Our scientists have confirmed that, as suspected, the glass coating the surface of [From.Planet.GetName] is artificial and likely the result of the surface being superheated. What few ruins remain indicate that the native civilization had not yet achieved space flight and lacked the necessary technology to heat large areas to high enough tempratures to achieve such a pronounced effect. [Root.GetLeaderName] believes the native civilisation succumbed to an external threat, and is focusing the team's efforts to uncover the nature of this threat."
  curio.181.name:0 "Concentrated Storm"
@@ -286,4 +286,4 @@
  I_SEE:0 "I See."
  TROUBLING:0 "Troubling."
  UNFORTUNATE:0 "Unfortunate."
- Bring it online:0 "Bring it online."
+ BRING_IT_ONLINE:0 "Bring it online."
