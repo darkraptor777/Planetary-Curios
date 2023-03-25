@@ -16,19 +16,7 @@
  CRYSTAL_GROWTH_DESC:0 "While conducting a survey of [From.GetName], our sensors have detected strange crystal formations located in a small region on the planets surface. Perhaps this warrents further investigation."
  DEEP_STATION_CAT:0 "Submerged Station"
  DEEP_STATION_DESC:0 "While conducting a survey of [From.GetName], our scanners have picked up what appears to be some sort of structure deep beneath the waves."
- 
- ####################################
- # Edicts
- ####################################
- edict_diplomacy_ferns:0 "Luminous Displays"
- edict_diplomacy_ferns_desc:0 "The calming effect often observed when viewing the ferns can be utilised in diplomatic meetings, helping give our empire a more relaxed appearance."
- edict_happy_ferns:0 "Luminous Festivals"
- edict_happy_ferns_desc:0 "We can use the glowing ferns in awe-inspiring parades and festivals to help placate the populace."
- edict_flare_ferns:0 "Luminous Flares"
- edict_flare_ferns_desc:0 "Chemical compounds present in the ferns make excellent emergency flares, allowing our ships to more easily disengage."
- edict_gas_ferns:0 "Luminous Gas"
- edict_gas_ferns_desc:0 "The fern gas is used to its full, nerve shredding and circuit frying, effect with brutal and indesciminant efficiency."
- 
+
  ####################################
  # Deposits
  ####################################
@@ -55,68 +43,21 @@
  d_overflowing_waterfall:0 "Overflowing Waterfall"
  d_overflowing_waterfall_desc:0 "An abnormally large and visually striking waterfall."
  
- d_luminescent_ferns_deposit:0 "Glowing Groves"
- d_luminescent_ferns_deposit_desc:0 "A secluded region filled with highly bioluminescent plants."
- d_luminescent_ferns_tree_deposit:0 "Luminous Forest"
- d_luminescent_ferns_tree_deposit_desc:0 "A forest primarily consisting of gigantic trees with highly bioluminescent foliage."
- 
  ####################################
  # Jobs
  ####################################
- job_fern_harvester:0 "Fern Harvester"
- job_fern_harvester_plural:0 "Fern Harvesters"
- job_fern_harvester_desc:0 "The harvesting of the unusual ferns requires great care and training."
- mod_job_fern_harvester_add:0 "Fern Harvester Jobs"
- job_fern_harvesting_drone:0 "Fern Harvesting Drone"
- job_fern_harvesting_drone_plural:0 "Fern Harvesting Drones"
- job_fern_harvesting_drone_desc:0 "Only the most careful drons are permitted to harvest the unusual ferns."
- mod_job_fern_harvesting_drone_add:0 "Fern Havesting Drone Jobs"
- job_fern_refiner:0 "Fern Refiner"
- job_fern_refiner_plural:0 "Fern Refiners"
- job_fern_refiner_desc:0 "Breaking down ferns into more common substances is not a simple or easy job."
- mod_job_fern_refiner_add:0 "Fern Refiner Jobs"
- job_fern_refiner_drone:0 "Fern Refiner Drone"
- job_fern_refiner_drone_plural:0 "Fern Refiner Drones"
- job_fern_refiner_drone_desc:0 "Breaks down ferns into more useful substances, a concept most drones are familiar with."
- mod_job_fern_refiner_drone_add:0 "Fern Refiner Drone Jobs"
- 
+
  job_infestation_researcher:0 "Infestation Researcher"
  job_infestation_researcher_plural:0 "Infestation Researchers"
  job_infestation_researcher_desc:0 "A certain aptitude is required for studying the infestation. Those with a more squeamish disposition don't tend to last long on the job."
  mod_job_infestation_researcher_add:0 "Infestation Researcher Jobs"
  
  ##################
- # ARMIES
- ##################
- bioweapons_army:0 "Bioweapons Army"
- bioweapons_army_desc:0 "An army specialised in biological warfare. The fern spores are used to their full, nerve shredding and circuit frying, effect with brutal efficiency."
- bioweapons_army_mech:0 "Bioweapon Mechs"
- bioweapons_army_mech_desc:0 "An army of mechs with specialised biological weapons. The fern spores are used to their full, nerve shredding and circuit frying, effect with brutal efficiency."
- 
- bombardment_ferns:0 "Luminescent Gassing"
- bombardment_ferns_desc:3 "$bombardment_ferns$ Bombardment releases nerve shredding gas with no regard for civilian casualties.\n- §HHeavy§! damage to §YArmies§!\n- §HLight§! damage to §YPlanet§!\n- §YHeavy§! damage to §YPops§!\n- Will bombard undefended planets\n- §RWill§! kill the last Pops"
- 
- ##################
  # TRAITS
  ##################
  trait_dream_ridden:0 "Dream-ridden"
  trait_dream_ridden_desc:0 "These genes allow our citizens to enter a deep sleep bordering on hibernation. This deep sleep lengthens and improves out citizens lives however this increased sleeping period negatively impacts productivity."
- 
- ####################################
- # Buildings
- ####################################
- building_fern_harvesters:0 "Luminescent Fern Farm"
- building_fern_harvesters_desc:0 "These agri-domes are specially designed to help limit the number of fatalities caused by the ferns spores."
- mod_building_fern_harvesters_max:0 "Luminescent Fern Farms"
- building_fern_refiners:0 "Luminescent Fern Refinery"
- building_fern_refiners_desc:0 "Biological material is infused with energy to create the necessary nutriates required for fern cultivation."
- 
- ####################################
- # Basic Resources
- ####################################
- luminescent_ferns:0 "Luminescent Ferns"
- luminescent_ferns_desc:0 "These highly bioluminescent plants are an enchanting spectacle in low light, however this beauty beguiles and their highly toxic spores can be lethal. Fresh corpses make for great fertilizer after all."
- 
+
  ####################################
  # Celestial Bodies
  ####################################
@@ -126,25 +67,14 @@
  ####################################
  # Research
  ####################################
- tech_harvest_luminescent_ferns:0 "Luminescent Fern Harvesting"
- tech_harvest_luminescent_ferns_desc:0 "Extraordinarily bioluminescent predatory plants, their bright glow and lethal spores could have both economic and military applications."
- tech_refine_luminescent_ferns:0 "Luminescent Fern Refining"
- tech_refine_luminescent_ferns_desc:0 "Fern refinement is a long and complex process requiring specialist equipment and safety training."
  tech_gilded_arks:0 "Gilded Arks"
  tech_gilded_arks_desc:0 "The arks made by the Church of the Gilded Sun had some innovative methods of citizen storage."
  tech_dream_ridden:0 "Dream-riddden Genes"
  tech_dream_ridden_desc:0 "The genes we recovered from the creature can be used to allow our citizens to enter a deep sleep bordering on hibernation."
- tech_luminescent_army:0 "Bioweapons Developement"
- tech_luminescent_army_desc:0 "Special equipment could be developed to allow our troops to put this deadly gas to a more targetted use."
- tech_luminescent_gas:0 "Luminescent Gas"
- tech_luminescent_gas_desc:0 "The hazardous nature of luminescent fern spores could potentially be put to more nefarious use."
  ####################################
  # Modifiers
  ####################################
- luminescent_ferns_deficit:0 "Luminescent Ferns Deficit"
- luminescent_ferns_deficit_desc:0 "We don't have enough luminescent ferns for our production."
- fern_gassing:0 "Fern Gassing"
- fern_gassing_desc:0 "Gas has been manufactured from luminescent fern spores, a weapon to be used should our hand be forced."
+
  ####################################
  # Planetary Modifiers
  ####################################
